@@ -1,0 +1,13 @@
+#mainTable {
+	border-collapse: collapse;
+}
+
+#mainContent {
+	width: 400px;
+	min-width: 400px;
+	max-width: 400px;
+}
+
+.noWrapping {
+	padding: 0px;
+}
