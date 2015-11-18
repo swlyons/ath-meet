@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="template.css" />
+		<link rel="stylesheet" type="text/css" href="entryPoint.css" />
+		<script src="../lib/jquery-1.11.3.js"></script>
+		<script src="entryPoint.js"></script>
+	</head>
+	<body>
+		<table id="mainTable">
+			<tr>
+				<td colspan=3 class="noWrapping">
+					<img width="100%" height="100%" src="../images/phoneTop.png" />
+				</td>
+			</tr>
+			<tr>
+				<td class="noWrapping">
+					<img width="100%" height="100%" src="../images/phoneLeft.png" />
+				</td>
+				<td class="noWrapping">
+					<div id="mainContent">
+						<table width="100%">
+							<tr>
+								<td width="25px"></td>
+								<td>
+									<img align="middle" src="../images/athMeetLogo.png" />
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<div id="fullBox">
+										<div id="createAccountCredentials" class="credentials">
+											<table class="usernameAndPassword">
+												<tr>
+													<td colspan="2" class="headerLabel">
+														<label>Choose a Username</label>
+													</td>
+												</tr>
+												<tr>
+													<td class="credLabel">
+														<label>Username:</label>
+													</td>
+													<td>
+														<input type="text" id="createdUsername" />
+													</td>
+												</tr>
+												<tr>
+													<td class="credLabel">
+														<label>Password:</label>
+													</td>
+													<td>
+														<input type="text" id="createdPassword" />
+													</td>
+												</tr>
+											</table>
+
+										</div>
+										<button id="createAccount">Create Account</button><br/>
+										<div id="signInCredentials" class="credentials">
+											<table class="usernameAndPassword">
+												<tr>
+													<td class="credLabel">
+														<label>Username:</label>
+													</td>
+													<td>
+														<input type="text" id="signInUsername" />
+													</td>
+												</tr>
+												<tr>
+													<td class="credLabel">
+														<label>Password:</label>
+													</td>
+													<td>
+														<input type="text" id="signInPassword" />
+													</td>
+												</tr>
+											</table>
+										</div>
+
+										<button id="signIn">Sign In</button>
+									</div>
+								</td>
+							</tr>
+							<tr style="height: 0px;">
+								<td colspan="2">
+
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td class="noWrapping">
+					<img width="100%" height="100%" src="../images/phoneRight.png" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan=3 class="noWrapping">
+					<img width="100%" height="100%" src="../images/phoneBottom.png" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

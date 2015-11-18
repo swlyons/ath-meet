@@ -1,0 +1,50 @@
+#fullBox {
+    border: 2px solid gray;
+    background-color: pink;
+    height: 166px;
+    width: 330px;
+    position: relative;
+    top: -50px;
+}
+
+.credentials {
+    display: none;
+}
+
+.usernameAndPassword {
+    margin: 5px;
+    width: 100%;
+}
+
+.headerLabel {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.credLabel {
+    font-size: 25px;
+    text-align: right;
+}
+
+button {
+    margin: 8px 8px 0 8px;
+    width: 316px;
+    height: 70px;
+    font-size: 25px;
+    background-color: #e06666;
+    border: 2px solid black;
+}
+
+button:focus {
+    outline: 0;
+}
+
+input {
+    position: relative;
+    font-size: 15px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
