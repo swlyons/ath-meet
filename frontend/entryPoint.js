@@ -15,7 +15,7 @@ var createAccountSlide = function() {
 };
 
 var createAccount = function() {
-	window.location.href = "/setupPreferences.html"
+	window.location.href = "setupPreferences.html"
 };
 
 var signInSlide = function() {
@@ -27,5 +27,5 @@ var signInSlide = function() {
 };
 
 var signIn = function() {
-	window.location.href = "/newsFeed.html"
+	window.location.href = "newsFeed.html";
 };
