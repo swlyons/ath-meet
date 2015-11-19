@@ -6,8 +6,66 @@
 	width: 400px;
 	min-width: 400px;
 	max-width: 400px;
+	height: 548px;
+	min-height: 548px;
+	max-height: 548px;
+}
+
+#headerTable {
+	width: 100%;
+	border-collapse: collapse;
+	height: 75px;
+}
+
+#leftHeader {
+	width: 20%;
+}
+
+#middleHeader {
+	font-size: 40px;
+	text-align: center;
+}
+
+#rightHeader {
+	text-align: center;
+	width: 20%;
+	height: 75px;
+	background: #b3d9ff;
+}
+
+#footerTable {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #b3d9ff;
+	height: 75px;
+}
+
+#footerTable td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+#leftFooter {
+	cursor: pointer;
+	width: 33%;
+}
+
+#middleFooter {
+	cursor: pointer;
+	width: 34%;
+}
+
+#rightFooter {
+	cursor: pointer;
+	width: 33%;
 }
 
 .noWrapping {
-	padding: 0px;
+	padding: 0;
+	z-index: -1;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
 }
