@@ -9,9 +9,10 @@ window.onload = function() {
 var createAccountSlide = function() {
 	$("#signInCredentials").slideUp();
 	$("#createAccountCredentials").slideDown();
-	$("#fullBox").animate({height: "294px"});
-	$("#signIn").css("border-width", "2px").unbind().click(signInSlide);
-	$("#createAccount").css("border-width", "4px").unbind().click(createAccount);
+	$("#fullBox").animate({height: "294px"}, function() {
+		$("#createAccount").attr("class", "clickedButton").unbind().click(createAccount);
+	});
+	$("#signIn").attr("class", "unclickedButton").unbind().click(signInSlide);
 };
 
 var createAccount = function() {
@@ -21,9 +22,10 @@ var createAccount = function() {
 var signInSlide = function() {
 	$("#createAccountCredentials").slideUp();
 	$("#signInCredentials").slideDown();
-	$("#fullBox").animate({height: "243px"});
-	$("#createAccount").css("border-width", "2px").unbind().click(createAccountSlide);
-	$("#signIn").css("border-width", "4px").unbind().click(signIn);
+	$("#fullBox").animate({height: "243px"}, function() {
+		$("#signIn").attr("class", "clickedButton").unbind().click(signIn);
+	});
+	$("#createAccount").attr("class", "unclickedButton").unbind().click(createAccountSlide);
 };
 
 var signIn = function() {
