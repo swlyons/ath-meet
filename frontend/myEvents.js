@@ -8,7 +8,7 @@ $(function() {
 		$.each(data, function(key, event) {
 			var row = $("<tr></tr>");
 			var cell = $("<td></td>").attr("class", "eventCell");
-			var label = $("<label></label>").append(event["date"] + " at " + event["time"] + "<br />" + event["activity"] + " with");
+			var label = $("<label></label>").append(event["date"] + " at " + event["time"] + "<br />" + event["activity"]);
 			label.append(formatPeople(event["participants"]));
 			cell.append(label);
 			row.append(cell);
@@ -23,7 +23,7 @@ var formatPeople = function(people) {
 	if (people.length == 0) {
 		return "";
 	}
-	var result = "";
+	var result = " with";
 	for (var i = 0; i<people.length; i++) {
 		if (i != 0) {
 			if (i == people.length-1) {
