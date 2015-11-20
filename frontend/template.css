@@ -21,6 +21,11 @@
 	width: 20%;
 }
 
+#matchUpIcon {
+	width: 50px;
+	height: 50px;
+}
+
 #middleHeader {
 	font-size: 40px;
 	text-align: center;
@@ -30,7 +35,6 @@
 	text-align: center;
 	width: 20%;
 	height: 75px;
-	background: #b3d9ff;
 }
 
 #footerTable {
@@ -38,6 +42,7 @@
 	border-collapse: collapse;
 	background-color: #b3d9ff;
 	height: 75px;
+	margin-bottom: 5px;
 }
 
 #footerTable td {
@@ -58,6 +63,22 @@
 #rightFooter {
 	cursor: pointer;
 	width: 33%;
+}
+
+#eventsMenu {
+	display: none;
+	border-collapse: collapse;
+	width: 134px;
+	position: absolute;
+	left: 50px;
+	top: 624px;
+	background-color: pink;
+}
+
+#eventsMenu td {
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 10px 5px 10px 5px;
 }
 
 .noWrapping {
