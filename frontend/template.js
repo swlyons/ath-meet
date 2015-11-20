@@ -19,7 +19,7 @@ initializeClickFunctions = function() {
 	});
 
 	$("#myEvents").click(function() {
-		window.location.href = "yourEventList.html";
+		window.location.href = "myEvents.html";
 	});
 
 	$("#searchEvents").click(function() {
