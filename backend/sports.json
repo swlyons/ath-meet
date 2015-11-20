@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Baseball",
+    "image": "../images/baseball.png"
+  },
+  {
+    "name": "Basketball",
+    "image": "../images/basketball.png"
+  },
+  {
+    "name": "Football",
+    "image": "../images/football.png"
+  },
+  {
+    "name": "Golf",
+    "image": "../images/golf.png"
+  },
+  {
+    "name": "Hockey",
+    "image": "../images/hockey.png"
+  },
+  {
+    "name": "Lacrosse",
+    "image": "../images/lacrosse.png"
+  },
+  {
+    "name": "Soccer",
+    "image": "../images/Soccer.png"
+  },
+  {
+    "name": "Tennis",
+    "image": "../images/tennis.png"
+  }
+]
