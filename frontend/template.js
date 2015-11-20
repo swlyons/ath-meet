@@ -1,9 +1,9 @@
 /**
  * Created by eric on 11/18/15.
  */
-window.onload = function() {
+$(function() {
 	initializeClickFunctions();
-};
+});
 
 initializeClickFunctions = function() {
 	$("#leftFooter").click(function() {
