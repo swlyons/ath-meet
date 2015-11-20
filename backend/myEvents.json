@@ -5,7 +5,8 @@
     "activity": "Tennis",
     "participants": [
       "jonnyboy",
-      "jacksond11"
+      "jacksond11",
+      "someoneelse"
     ]
   },
   {
@@ -13,7 +14,22 @@
     "time": "2:00pm",
     "activity": "Bowling",
     "participants": [
-      "wifee"
+      "wifee",
+      "hubee"
     ]
+  },
+  {
+    "date": "Nov 18th",
+    "time": "6:00pm",
+    "activity": "Golf",
+    "participants": [
+      "bestfriend"
+    ]
+  },
+  {
+    "date": "Nov 19th",
+    "time": "12:00pm",
+    "activity": "Being Lonely",
+    "participants": []
   }
 ]
