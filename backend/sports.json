@@ -25,10 +25,14 @@
   },
   {
     "name": "Soccer",
-    "image": "../images/Soccer.png"
+    "image": "../images/soccer.png"
   },
   {
     "name": "Tennis",
     "image": "../images/tennis.png"
+  },
+  {
+    "name": "Volleyball",
+    "image": "../images/volleyball.png"
   }
 ]

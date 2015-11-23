@@ -1,0 +1,13 @@
+#topMargin {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.search {
+    padding: 6px 30px 5px 15px;
+    margin: 3px;
+    background: url("../images/magnifyingGlass.png") no-repeat top right;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
