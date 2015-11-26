@@ -16,10 +16,7 @@ var createAccountSlide = function() {
 };
 
 var createAccount = function() {
-	var valid = true;
-	var usernameBox = $("#createdUsername");
-	var passwordBox = $("#createdPassword");
-	if (validateTextBox(usernameBox) && validateTextBox(passwordBox)) {
+	if (validateTextBox($("#createdUsername")) && validateTextBox($("#createdPassword"))) {
 		window.location.href = "setupPreferences.html"
 	}
 };
@@ -44,5 +41,7 @@ var signInSlide = function() {
 };
 
 var signIn = function() {
-	window.location.href = "newsFeed.html";
+	if (validateTextBox($("#signInUsername")) && validateTextBox($("#signInPassword"))) {
+		window.location.href = "newsFeed.html";
+	}
 };
