@@ -10,9 +10,11 @@ $(function() {
 			var cell = $("<td></td>").attr("class", "feedCell");
 			var image = $("<img />").attr("class", "profilePicture").attr("src", val["image"]);
 			var link = $("<a></a>").attr("href", "profile.html?id=" + val["username"]);
+			var imageLink = link.clone();
+			imageLink.append(image);
 			link.append("@" + val["username"]);
 			var label = $("<label></label>").append(link).append(": " + val["text"]);
-			cell.append(image).append(label);
+			cell.append(imageLink).append(label);
 			row.append(cell);
 			table.append(row);
 		});
