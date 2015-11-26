@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="searchEvents.css" />
 		<script src="../lib/jquery-1.11.3.js"></script>
 		<script src="template.js"></script>
+		<script src="searchEvents.js"></script>
 	</head>
 	<body>
 		<table id="mainTable">
@@ -33,7 +34,22 @@
 						</tr>
 					</table>
 					<div id="mainContent" align="center">
-						<input id="tags" type="text" class="search" placeholder="Search..." />
+						<input id="tags" type="text" class="search" placeholder="Loading..." disabled="disabled" />
+						<table id="eventsTable">
+							<thead>
+								<tr>
+									<td>
+										Date
+									</td>
+									<td>
+										Time
+									</td>
+									<td>
+										Activity
+									</td>
+								</tr>
+							</thead>
+						</table>
 					</div>
 					<table id="eventsMenu">
 						<tr>
