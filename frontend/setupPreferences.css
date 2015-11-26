@@ -1,6 +1,41 @@
 #topMargin {
-    margin-top: 100px;
+    margin-top: 50px;
     display: inline-block;
+}
+
+#middleMargin {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#sportsDiv {
+    border: 1px solid black;
+    max-height: 135px;
+    overflow-y: scroll;
+}
+
+#emptyTableText {
+    margin: 10px 0px;
+}
+
+#checkBoxTable {
+    border: 1px solid black;
+}
+
+.sportImage {
+    height: 30px;
+    width: 36px;
+    padding: 0 20px;
+}
+
+.removeRow {
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+#removeImage {
+    height: 12px;
+    width: 12px;
 }
 
 .search {
@@ -10,4 +45,8 @@
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+}
+
+input:focus {
+    outline: 0;
 }
