@@ -16,7 +16,22 @@ var createAccountSlide = function() {
 };
 
 var createAccount = function() {
-	window.location.href = "setupPreferences.html"
+	var valid = true;
+	var usernameBox = $("#createdUsername");
+	var passwordBox = $("#createdPassword");
+	if (validateTextBox(usernameBox) && validateTextBox(passwordBox)) {
+		window.location.href = "setupPreferences.html"
+	}
+};
+
+var validateTextBox = function(textBox) {
+	var value = textBox.val();
+	console.log(value);
+	if (!value) {
+		alert("Please enter a valid username and password");
+		return false;
+	}
+	return true;
 };
 
 var signInSlide = function() {
