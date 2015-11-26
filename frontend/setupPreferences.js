@@ -57,12 +57,14 @@ var initCheckboxTable = function() {
 	var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 	var table = $("#checkBoxTable");
+	var head = $("<thead></thead>");
 	var header = $("<tr></tr>");
 	header.append($("<th></th>").append("Day"));
 	header.append($("<th></th>").append("Morning (before noon)"));
 	header.append($("<th></th>").append("Afternoon (noon to 5)"));
 	header.append($("<th></th>").append("Evening (after 5)"));
-	table.append(header);
+	head.append(header);
+	table.append(head);
 
 	for (var i = 0; i < days.length; i++) {
 		var tr = $("<tr></tr>");

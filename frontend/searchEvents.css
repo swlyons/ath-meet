@@ -1,23 +1,5 @@
 #eventsTable {
     border-collapse: collapse;
-    /*color: #fff;*/
-}
-
-#eventsTable thead {
-    background-color: #e06666;
-    color: #fff;
-}
-
-#eventsTable tbody tr:nth-child(even) {
-    background-color: pink;
-}
-
-#eventsTable tbody tr:nth-child(odd) {
-    background-color: lightpink;
-}
-
-#eventsTable tr {
-    border: 1px solid black;
 }
 
 #eventsTable td {

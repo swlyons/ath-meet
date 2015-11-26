@@ -9,7 +9,7 @@ $(function() {
 			var row = $("<tr></tr>");
 			var cell = $("<td></td>").attr("class", "feedCell");
 			var image = $("<img />").attr("class", "profilePicture").attr("src", val["image"]);
-			var link = $("<a></a>").attr("href", "profile.html?id=" + val["username"])
+			var link = $("<a></a>").attr("href", "profile.html?id=" + val["username"]);
 			link.append("@" + val["username"]);
 			var label = $("<label></label>").append(link).append(": " + val["text"]);
 			cell.append(image).append(label);
