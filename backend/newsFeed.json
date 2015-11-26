@@ -1,14 +1,44 @@
 [
-  {
-    "username": "machomoustache",
-    "image": "../images/profile1.png",
-    "text": "I love my moustache! This is more text blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-    "time": "1m ago"
-  },
-  {
-    "username": "jjenkins",
-    "image": "../images/profile2.png",
-    "text": "This is short text",
-    "time": "Yesterday"
-  }
+{
+"username": "machomoustache",
+"image": "../images/profile1.png",
+"text": "My moustache makes me a superior basketball star",
+"time": "1m ago"
+},
+{
+"username": "espn_official",
+"image": "../images/espn.png",
+"text": "Orem Raptors holding open tryouts this Monday night at 8PM. Visit our website for more info!",
+"time": "3 m ago"
+},
+{
+"username": "brady_r_us",
+"image": "../images/profile2.png",
+"text": "Judge how you may, the true statistics of a player's performance are likely to be overinflated according to our subjective biases, says Nate Silver.",
+"time": "4 m ago"
+},
+{
+"username": "jackkempenaar",
+"image": "../images/profile3.png",
+"text": "Dutch field hockey poised to beat Argentina in national championships this year...which is great news if you're Dutch, Argentine, or know what field hockey is.",
+"time": "5 m ago"
+},
+{
+"username": "ESPN Official",
+"image": "../images/espn.png",
+"text": "Richard W. Carrecher steps down as BYU intermurals chair amid allegations he paid refs to let his brother's team win",
+"time": "5 m ago"
+},
+{
+"username": "ESPN Official",
+"image": "../images/espn.png",
+"text": "PrettyBoys declared BYU intermurals flag football champions of 2015!",
+"time": "6 m ago"
+},
+{
+"username": "rcarrecher",
+"image": "../images/profile4.png",
+"text": "Anybody know where the closest ATM is to BYU south fields?",
+"time": "12 m ago"
+}
 ]
