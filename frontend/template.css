@@ -91,3 +91,21 @@
 	width: 100%;
 	height: 100%;
 }
+
+.altRows {
+	border: 1px solid black;
+}
+
+.altRows thead {
+	background-color: #fb5151;
+	color: #fff;
+	border: 1px solid black;
+}
+
+.altRows tbody tr:nth-child(odd) {
+	background-color: #ffe5e5;
+}
+
+.altRows tbody tr:nth-child(even) {
+	background-color: #ffcccc;
+}
