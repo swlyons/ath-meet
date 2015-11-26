@@ -18,22 +18,12 @@ $(function() {
 		source: sportNamesArray,
 		select: function (event, ui) {
 			var button = $("#addSport");
-			if (sportNamesArray.indexOf(textBox.val()) == -1) {
+			if (sportNamesArray.indexOf(ui.item.value) == -1) {
 				button.attr("disabled", true);
 			} else {
 				button.attr("disabled", false);
 				button.focus();
 			}
-		}
-	});
-
-	textBox.on('input autocompleteselect', function() {
-		var button = $("#addSport");
-		if (sportNamesArray.indexOf(textBox.val()) == -1) {
-			button.attr("disabled", true);
-		} else {
-			button.attr("disabled", false);
-			button.focus();
 		}
 	});
 
