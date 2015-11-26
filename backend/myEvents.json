@@ -1,35 +1,82 @@
 [
-  {
-    "date": "Tomorrow",
-    "time": "6:30am",
-    "activity": "Tennis",
-    "participants": [
-      "jonnyboy",
-      "jacksond11",
-      "someoneelse"
-    ]
-  },
-  {
-    "date": "Nov 15th",
-    "time": "2:00pm",
-    "activity": "Bowling",
-    "participants": [
-      "wifee",
-      "hubee"
-    ]
-  },
-  {
-    "date": "Nov 18th",
-    "time": "6:00pm",
-    "activity": "Golf",
-    "participants": [
-      "bestfriend"
-    ]
-  },
-  {
-    "date": "Nov 19th",
-    "time": "12:00pm",
-    "activity": "Being Lonely",
-    "participants": []
-  }
+{
+"date": "Tomorrow",
+"time": "6:30am",
+"activity": "Tennis",
+"participants": [
+"jonnyboy",
+"jacksond11"
+]
+},
+{
+"date": "Nov 15th",
+"time": "2:00pm",
+"activity": "Bowling",
+"participants": [
+"wifee"
+]
+},
+{
+"date": "Nov 28th",
+"time": "2:00pm",
+"activity": "Turkey Bowl",
+"participants": [
+"jakefromstatefarm",
+"r_charrecher",
+"jsmithereens",
+"chad_the_dad",
+"rachely",
+"audreyandjohn",
+"blueforte"
+]
+},
+{
+"date": "Dec 1st",
+"time": "12:00pm",
+"activity": "Tennis",
+"participants": [
+"jakefromstatefarm"
+]
+},
+{
+"date": "Dec 2nd",
+"time": "7:00pm",
+"activity": "Volleyball",
+"participants": [
+"overenthusiastic_rm",
+"ofa_the_samoan",
+"urgency",
+"derrick_usa"
+]
+},
+{
+"date": "Dec 3rd",
+"time": "5:00pm",
+"activity": "Tennis",
+"participants": [
+"jakefromstatefarm",
+"ofa_the_samoan"
+]
+},
+{
+"date": "Dec 3rd",
+"time": "7:00pm",
+"activity": "Volleyball",
+"participants": [
+"overenthusiastic_rm",
+"ofa_the_samoan",
+"derrick_usa"
+]
+},
+{
+"date": "Dec 4th",
+"time": "8:00pm",
+"activity": "Basketball",
+"participants": [
+"lankyjane",
+"rachelyoung",
+"pele4eva",
+"blazin_guns"
+]
+}
 ]
