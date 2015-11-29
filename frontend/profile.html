@@ -3,8 +3,10 @@
 	<head>
 		<title>Ath-Meet</title>
 		<link rel="stylesheet" type="text/css" href="template.css" />
+		<link rel="stylesheet" type="text/css" href="profile.css" />
 		<script src="../lib/jquery-1.11.3.js"></script>
 		<script src="template.js"></script>
+		<script src="profile.js"></script>
 	</head>
 	<body>
 		<table id="mainTable">
@@ -24,15 +26,72 @@
 
 							</td>
 							<td id="middleHeader">
-								Title
+								Profile
 							</td>
 							<td id="rightHeader">
 								<a href="matchUps.html"><img id="matchUpIcon" src="../images/matchUpIcon.png" /></a>
 							</td>
 						</tr>
 					</table>
-					<div id="mainContent">
-
+					<div id="mainContent" align="center">
+						<div id="topContent" align="left">
+							<div id="tableContainer">
+								<table id="leftTable" class="float">
+									<tr>
+										<td id="nameTd">
+											<div id="name">Moustache</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img id="image" src="../images/profile1.png" />
+										</td>
+									</tr>
+								</table>
+								<table id="rightTable" class="float">
+									<tr>
+										<td>
+											<button id="sendMessage" class="redButton">Send Message</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button id="follow" class="redButton">Follow</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div id="sports">
+												<img class="sportIcon" src="../images/tennis.png" />
+												<img class="sportIcon" src="../images/baseball.png" />
+												<img class="sportIcon" src="../images/basketball.png" />
+												<img class="sportIcon" src="../images/soccer.png" />
+											</div>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div id="bottomContent">
+							<table id="tabHeaders">
+								<tr>
+									<td id="stats" class="clicked">
+										Stats
+									</td>
+									<td id="avail" class="notClicked">
+										Availability
+									</td>
+								</tr>
+								<tr>
+									<td id="statsContent" class="divContent" colspan="2">
+										No available stats at this time
+									</td>
+									<td id="availContent" class="divContent" colspan="2">
+										No availability listed
+									</td>
+								</tr>
+							</table>
+						</div>
 					</div>
 					<table id="eventsMenu">
 						<tr>
