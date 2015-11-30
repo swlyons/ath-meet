@@ -5,7 +5,7 @@ var events = [];
 
 $(function() {
 	var textBox = $("#tags");
-	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/myEvents.json", function(data) {
+	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/allEvents.json", function(data) {
 		textBox.attr("disabled", false).attr("placeholder", "Searching...");
 		$.each(data, function(key, event) {
 			events.push(event);
