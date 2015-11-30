@@ -18,7 +18,8 @@
 
 #name {
     padding: 5px;
-    border: 1px solid black;
+    background-color: rgba(224, 102, 102, 0.4);
+    color: #fff;
 }
 
 #image {
