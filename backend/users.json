@@ -91,5 +91,25 @@
   {
     "username" : "lelival",
     "image" : "../images/profile/lelival.png"
+  },
+  {
+    "username" : "machomoustache",
+    "image" : "../images/profile/machomoustache.png"
+  },
+  {
+    "username" : "espn_official",
+    "image" : "../images/profile/espn_official.png"
+  },
+  {
+    "username" : "brady_r_us",
+    "image" : "../images/profile/brady_r_us.png"
+  },
+  {
+    "username" : "jackkempenaar",
+    "image" : "../images/profile/brady_r_us.png"
+  },
+  {
+    "username" : "rcarrecher",
+    "image" : "../images/profile/rcarrecher.png"
   }
 ]
