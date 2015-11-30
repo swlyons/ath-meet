@@ -6,10 +6,10 @@ $(function() {
 
 	var sportNamesArray = [];
 	var sportImageArray = [];
-	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/sports.json", function(data) {
-		$.each(data, function(key, value) {
-			sportNamesArray.push(value["name"]);
-			sportImageArray.push(value["image"]);
+	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/sports.json", function(sports) {
+		$.each(sports, function(key, sport) {
+			sportNamesArray.push(sport["name"]);
+			sportImageArray.push(sport["image"]);
 		});
 	});
 

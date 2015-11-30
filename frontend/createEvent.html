@@ -3,8 +3,12 @@
 	<head>
 		<title>Ath-Meet</title>
 		<link rel="stylesheet" type="text/css" href="template.css" />
+		<link rel="stylesheet" type="text/css" href="createEvent.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/jquery-ui.css" />
 		<script src="../lib/jquery-1.11.3.js"></script>
+		<script src="../lib/jquery-ui.js"></script>
 		<script src="template.js"></script>
+		<script src="createEvent.js"></script>
 	</head>
 	<body>
 		<table id="mainTable">
@@ -32,7 +36,48 @@
 						</tr>
 					</table>
 					<div id="mainContent">
-
+						<table id="questions">
+							<tr>
+								<td class="leftLabel">Sport:</td>
+								<td>
+									<input id="sport" type="text" class="search" />
+								</td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Where:</td>
+								<td>
+									<input id="where" type="text" />
+								</td>
+							</tr>
+							<tr>
+								<td class="leftLabel">When:</td>
+								<td>
+									<input id="when" type="text" />
+								</td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Who:</td>
+								<td>
+									<input id="who" type="text" />
+								</td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Opponents:</td>
+								<td>
+									<select id="type">
+										<option value="public">Public</option>
+										<option value="private">Private</option>
+										<option	value="random">Random</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Details:</td>
+								<td>
+									<textarea id="detail"></textarea>
+								</td>
+							</tr>
+						</table>
 					</div>
 					<table id="eventsMenu">
 						<tr>
