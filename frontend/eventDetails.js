@@ -2,7 +2,8 @@
  * Created by eric on 12/1/15.
  */
 $(function() {
-	var eventId = 10;
+	var eventId = getParameterByName("id");
+
 	var event;
 	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/allEvents.json", function(events) {
 		$.each(events, function(key, eachEvent) {
@@ -22,3 +23,10 @@ $(function() {
 		$("#details").append(event['details']);
 	});
 });
+
+function getParameterByName(name) {
+	name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		results = regex.exec(location.search);
+	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}

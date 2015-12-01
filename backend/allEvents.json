@@ -6,6 +6,7 @@
     "activity": "Tennis",
     "owner": "wifee",
     "location": "Kiwanis Park",
+    "details": "bring some tennis balls",
     "participants": [
       "jonnyboy",
       "jacksond11",
@@ -19,6 +20,7 @@
     "activity": "Tennis",
     "owner": "jonnyboy",
     "location": "Provo High",
+    "details": "be there!",
     "participants": [
       "rachet",
       "javel776"
@@ -31,6 +33,7 @@
     "activity": "Basketball",
     "owner": "audreyandjohn",
     "location": "250 E 300 S Provo",
+    "details": "bring a basketball",
     "participants": [
       "lexik",
       "the_mathlete",
@@ -44,6 +47,7 @@
     "activity": "Bowling",
     "owner": "chad_the_dad",
     "location": "Fat Cats Provo",
+    "details": "",
     "participants": [
       "wifee",
       "machomoustache"
@@ -56,6 +60,7 @@
     "activity": "Volleyball",
     "owner": "blueforte",
     "location": "450 W 200 N Orem",
+    "details": "invite your friends!",
     "participants": [
       "the_mathlete"
     ]
@@ -67,6 +72,7 @@
     "activity": "Turkey Bowl",
     "owner": "ofa_the_samoan",
     "location": "Lavell Edwards Stadium",
+    "details": "can't wait",
     "participants": [
       "jakefromstatefarm",
       "r_charrecher",
@@ -84,6 +90,7 @@
     "activity": "Tennis",
     "owner": "derrick_usa",
     "location": "500 W 621 S Orem",
+    "details": "It's gonna be cold",
     "participants": [
       "jakefromstatefarm"
     ]
@@ -95,6 +102,7 @@
     "activity": "Volleyball",
     "owner": "rachelyoung",
     "location": "Provo Rec Center",
+    "details": "",
     "participants": [
       "overenthusiastic_rm",
       "ofa_the_samoan",
@@ -109,6 +117,7 @@
     "activity": "Tennis",
     "owner": "blazin_guns",
     "location": "Orem Rec Center",
+    "details": "lets have some fun.",
     "participants": [
       "jakefromstatefarm",
       "ofa_the_samoan"
@@ -121,6 +130,7 @@
     "activity": "Volleyball",
     "owner": "javel776",
     "location": "235 E 300 N Orem",
+    "details": "near a cool place",
     "participants": [
       "overenthusiastic_rm",
       "ofa_the_samoan",
@@ -134,6 +144,7 @@
     "activity": "Basketball",
     "owner": "the_mathlete",
     "location": "The Marriot Center",
+    "details": "Jimmer will be there.",
     "participants": [
       "lankyjane",
       "rachelyoung",
