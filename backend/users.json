@@ -1,115 +1,253 @@
 [
   {
     "username" : "jonnyboy",
-    "image" : "../images/profile/jonnyboy.png"
+    "image" : "../images/profile/jonnyboy.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football"
+    ]
   },
   {
     "username" : "jacksond11",
-    "image" : "../images/profile/jacksond11.png"
+    "image" : "../images/profile/jacksond11.png",
+    "favoriteSports" : [
+      "Lacrosse",
+      "Football"
+    ]
   },
   {
     "username" : "wifee",
-    "image" : "../images/profile/wifee.png"
+    "image" : "../images/profile/wifee.png",
+    "favoriteSports" : [
+      "Basketball",
+      "Football"
+    ]
   },
   {
     "username" : "jakefromstatefarm",
-    "image" : "../images/profile/jakefromstatefarm.png"
+    "image" : "../images/profile/jakefromstatefarm.png",
+    "favoriteSports" : [
+      "Baseball",
+      "Football"
+    ]
   },
   {
     "username" : "r_charrecher",
-    "image" : "../images/profile/r_charrecher.png"
+    "image" : "../images/profile/r_charrecher.png",
+    "favoriteSports" : [
+      "Golf",
+      "Football"
+    ]
   },
   {
     "username" : "jsmithereens",
-    "image" : "../images/profile/jsmithereens.png"
+    "image" : "../images/profile/jsmithereens.png",
+    "favoriteSports" : [
+      "Golf",
+      "Football",
+      "Tennis"
+    ]
   },
   {
     "username" : "chad_the_dad",
-    "image" : "../images/profile/chad_the_dad.png"
+    "image" : "../images/profile/chad_the_dad.png",
+    "favoriteSports" : [
+      "Rubgy",
+      "Soccer"
+    ]
   },
   {
     "username" : "rachely",
-    "image" : "../images/profile/rachely.png"
+    "image" : "../images/profile/rachely.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football",
+      "Soccer"
+    ]
   },
   {
     "username" : "audreyandjohn",
-    "image" : "../images/profile/audreyandjohn.png"
+    "image" : "../images/profile/audreyandjohn.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football",
+      "Soccer"
+    ]
   },
   {
     "username" : "blueforte",
-    "image" : "../images/profile/blueforte.png"
+    "image" : "../images/profile/blueforte.png",
+    "favoriteSports" : [
+      "Basketball",
+      "Soccer"
+    ]
   },
   {
     "username" : "overenthusiastic_rm",
-    "image" : "../images/profile/overenthusiastic_rm.png"
+    "image" : "../images/profile/overenthusiastic_rm.png",
+    "favoriteSports" : [
+      "Football",
+      "Basketball",
+      "Soccer",
+      "Lacrosse"
+    ]
   },
   {
     "username" : "ofa_the_samoan",
-    "image" : "../images/profile/ofa_the_samoan.png"
+    "image" : "../images/profile/ofa_the_samoan.png",
+    "favoriteSports" : [
+      "Volleyball",
+      "Football"
+    ]
   },
   {
     "username" : "urgency",
-    "image" : "../images/profile/urgency.png"
+    "image" : "../images/profile/urgency.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Volleyball"
+    ]
   },
 
   {
     "username" : "derrick_usa",
-    "image" : "../images/profile/derrick_usa.png"
+    "image" : "../images/profile/derrick_usa.png",
+    "favoriteSports" : [
+      "Football",
+      "Basketball"
+    ]
   },
   {
     "username" : "lankyjane",
-    "image" : "../images/profile/lankyjane.png"
+    "image" : "../images/profile/lankyjane.png",
+    "favoriteSports" : [
+      "Tennis"
+    ]
   },
   {
     "username" : "rachelyoung",
-    "image" : "../images/profile/rachelyoung.png"
+    "image" : "../images/profile/rachelyoung.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football",
+      "Soccer",
+      "Volleyball"
+    ]
   },
   {
     "username" : "pele4eva",
-    "image" : "../images/profile/pele4eva.png"
+    "image" : "../images/profile/pele4eva.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Soccer"
+    ]
   },
   {
     "username" : "blazin_guns",
-    "image" : "../images/profile/blazin_guns.png"
+    "image" : "../images/profile/blazin_guns.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football",
+      "Soccer",
+      "Basketball",
+      "Hockey",
+      "Frisbee"
+    ]
   },
   {
     "username" : "rachet",
-    "image" : "../images/profile/rachet.png"
+    "image" : "../images/profile/rachet.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Basketball",
+      "Hockey",
+      "Frisbee"
+    ]
   },
   {
     "username" : "javel776",
-    "image" : "../images/profile/javel776.png"
+    "image" : "../images/profile/javel776.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football",
+      "Basketball",
+      "Hockey",
+      "Frisbee"
+    ]
   },
   {
     "username" : "lexik",
-    "image" : "../images/profile/lexik.png"
+    "image" : "../images/profile/lexik.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Basketball",
+      "Hockey",
+      "Frisbee"
+    ]
   },
   {
     "username" : "the_mathlete",
-    "image" : "../images/profile/the_mathlete.png"
+    "image" : "../images/profile/the_mathlete.png",
+    "favoriteSports" : [
+      "Football"
+    ]
   },
   {
     "username" : "lelival",
-    "image" : "../images/profile/lelival.png"
+    "image" : "../images/profile/lelival.png",
+    "favoriteSports" : [
+      "Hockey",
+      "Football"
+    ]
   },
   {
     "username" : "machomoustache",
-    "image" : "../images/profile/machomoustache.png"
+    "image" : "../images/profile/machomoustache.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football"
+    ]
   },
   {
     "username" : "espn_official",
-    "image" : "../images/profile/espn_official.png"
+    "image" : "../images/profile/espn_official.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Football",
+      "Basketball",
+      "Hockey",
+      "Frisbee",
+      "Golf"
+    ]
   },
   {
     "username" : "brady_r_us",
-    "image" : "../images/profile/brady_r_us.png"
+    "image" : "../images/profile/brady_r_us.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Hockey",
+      "Frisbee",
+      "Golf"
+    ]
   },
   {
     "username" : "jackkempenaar",
-    "image" : "../images/profile/brady_r_us.png"
+    "image" : "../images/profile/brady_r_us.png",
+    "favoriteSports" : [
+      "Hockey",
+      "Frisbee",
+      "Golf",
+      "Football"
+    ]
   },
   {
     "username" : "rcarrecher",
-    "image" : "../images/profile/rcarrecher.png"
+    "image" : "../images/profile/rcarrecher.png",
+    "favoriteSports" : [
+      "Tennis",
+      "Hockey",
+      "Frisbee",
+      "Golf"
+    ]
   }
 ]
