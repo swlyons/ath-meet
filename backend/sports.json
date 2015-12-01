@@ -1,38 +1,46 @@
 [
   {
     "name": "Baseball",
-    "image": "../images/baseball.png"
+    "image": "../images/sports/baseball.png"
   },
   {
     "name": "Basketball",
-    "image": "../images/basketball.png"
+    "image": "../images/sports/basketball.png"
   },
   {
+    "name": "Frisbee",
+    "image": "../images/sports/frisbee.png"
+  }
+  {
     "name": "Football",
-    "image": "../images/football.png"
+    "image": "../images/sports/football.png"
   },
   {
     "name": "Golf",
-    "image": "../images/golf.png"
+    "image": "../images/sports/golf.png"
   },
   {
     "name": "Hockey",
-    "image": "../images/hockey.png"
+    "image": "../images/sports/hockey.png"
   },
   {
     "name": "Lacrosse",
-    "image": "../images/lacrosse.png"
+    "image": "../images/sports/lacrosse.png"
+  },
+  {
+    "name": "Rugby",
+    "image": "../images/sports/rugby.png"
   },
   {
     "name": "Soccer",
-    "image": "../images/soccer.png"
+    "image": "../images/sports/soccer.png"
   },
   {
     "name": "Tennis",
-    "image": "../images/tennis.png"
+    "image": "../images/sports/tennis.png"
   },
   {
     "name": "Volleyball",
-    "image": "../images/volleyball.png"
+    "image": "../images/sports/volleyball.png"
   }
 ]

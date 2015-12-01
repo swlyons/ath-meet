@@ -28,8 +28,9 @@ $(function() {
 				//TODO: Add location to event
 				var location = "Kiwani's in the plaza at new york city mall";
 				var eventLink = $("<a>View Event Details</a>").attr("href", "eventDetails.html?id=" + event['eventId']);
-				var label = $("<label></label>").append(profileLink).append(": Want to play " + event['activity'].toLowerCase() +
-				" at " + location + " " + event['date'] + " at " + event['time'] + "? ").append(eventLink).append($("<br/>"));
+				var label = $("<label></label>").append(profileLink);
+
+				label.append(": Want to play " + event['activity'].toLowerCase() + " at " + location + " " + event['date'] + " at " + event['time'] + "? ").append(eventLink).append($("<br/>"));
 				topCell.append(label);
 
 				topRow.append(topCell);
