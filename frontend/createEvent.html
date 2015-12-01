@@ -42,41 +42,65 @@
 							<tr>
 								<td class="leftLabel">Sport:</td>
 								<td>
-									<input id="sport" type="text" />
+									<input id="sport" type="text" title="Sport to be Played" />
 								</td>
 							</tr>
 							<tr>
 								<td class="leftLabel">Where:</td>
 								<td>
-									<input id="where" type="text" />
+									<input id="where" type="text" title="Location of Event" />
 								</td>
 							</tr>
 							<tr>
 								<td class="leftLabel">When:</td>
 								<td>
-									<input id="when" type="text" />
+									<input id="when" type="text" title="Date and Time of Event" />
 								</td>
 							</tr>
 							<tr>
+								<td class="leftLabel">Event Type:</td>
+								<td>
+									<select id="eventType" title="Event Type">
+										<option value=""></option>
+										<option value="public">Public (anyone can join)</option>
+										<option value="private">Private (by invite)</option>
+										<option	value="random">Smart Selection (let us decide)</option>
+									</select>
+								</td>
+							</tr>
+							<tr class="nonInvites">
+								<td class="leftLabel"># of Participants</td>
+								<td>
+									<input id="nonInvites" type="number" min="0" title="How many Participants" />
+								</td>
+							</tr>
+							<tr class="invites">
 								<td class="leftLabel">Who:</td>
 								<td>
-									<input id="who" type="text" />
+									<input id="invites" type="text" title="Who will Participate" />
+									<button id="addUser" disabled>Add</button>
 								</td>
 							</tr>
-							<tr>
-								<td class="leftLabel">Opponents:</td>
+							<tr class="invites">
+								<td></td>
 								<td>
-									<select id="type">
-										<option value="public">Public</option>
-										<option value="private">Private</option>
-										<option	value="random">Random</option>
-									</select>
+									<div id="tableWrapper">
+										<table id="participants"></table>
+										<div id="emptyTableText">No selected participants.</div>
+									</div>
 								</td>
 							</tr>
 							<tr>
 								<td class="leftLabel">Details:</td>
 								<td>
-									<textarea id="detail"></textarea>
+									<textarea id="detail" title="Any Details about the Event"></textarea>
+								</td>
+							</tr>
+						</table>
+						<table width="100%">
+							<tr>
+								<td align="center">
+									<button id="create">Create Event</button>
 								</td>
 							</tr>
 						</table>

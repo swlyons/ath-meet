@@ -1,10 +1,49 @@
+#questions {
+    padding-top: 80px;
+}
+
 .leftLabel {
     width: 150px;
     text-align: right;
-    font-size: 17px;
+    font-size: 18px;
 }
 
-input, textarea {
+#tableWrapper {
+    max-height: 145px;
+    overflow-y: scroll;
+}
+
+.removeRow {
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+#removeImage {
+    height: 12px;
+    width: 12px;
+}
+
+input, select, textarea {
     border-radius: 5px;
     margin: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.nonInvites {
+    display: none;
+}
+
+.invites {
+    display: none;
+}
+
+#create {
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #33cc33;
 }
