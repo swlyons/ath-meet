@@ -10,6 +10,7 @@
 	min-height: 548px;
 	max-height: 548px;
 	overflow-y: auto;
+	font-family: Helvetica, sans-serif;
 }
 
 #headerTable {
