@@ -2,8 +2,6 @@
  * Created by eric on 12/1/15.
  */
 $(function() {
-	//TODO: Add owner to event
-	var inviter = "wifee";
 
 	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/allEvents.json", function(eventsData) {
 		$.getJSON("http://cs256-websolutions.com/ath-meet/backend/users.json", function(usersData) {
@@ -18,19 +16,17 @@ $(function() {
 				var innerTable = $("<table></table>");
 				var topRow = $("<tr></tr>");
 				var topCell = $("<td colspan='2'></td>");
-				var image = $("<img />").attr("class", "profilePicture").attr("src", userImageMap[inviter]);
-				var profileLink = $("<a></a>").attr("href", "profile.html?username=" + inviter);
+				var image = $("<img />").attr("class", "profilePicture").attr("src", userImageMap[event['owner']]);
+				var profileLink = $("<a></a>").attr("href", "profile.html?username=" + event['owner']);
 				var imageLink = profileLink.clone();
 				imageLink.append(image);
 				topCell.append(imageLink);
 
-				profileLink.append("@" + inviter);
-				//TODO: Add location to event
-				var location = "Kiwani's in the plaza at new york city mall";
+				profileLink.append("@" + event['owner']);
 				var eventLink = $("<a>View Event Details</a>").attr("href", "eventDetails.html?id=" + event['eventId']);
 				var label = $("<label></label>").append(profileLink);
 
-				label.append(": Want to play " + event['activity'].toLowerCase() + " at " + location + " " + event['date'] + " at " + event['time'] + "? ").append(eventLink).append($("<br/>"));
+				label.append(": Want to play " + event['activity'].toLowerCase() + " at " + event['location'] + " " + event['date'] + " at " + event['time'] + "? ").append(eventLink).append($("<br/>"));
 				topCell.append(label);
 
 				topRow.append(topCell);
