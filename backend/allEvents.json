@@ -4,6 +4,8 @@
     "date": "Tomorrow",
     "time": "6:30am",
     "activity": "Tennis",
+    "owner": "wifee",
+    "location": "Kiwanis Park",
     "participants": [
       "jonnyboy",
       "jacksond11",
@@ -15,6 +17,8 @@
     "date": "Tomorrow",
     "time": "8:45am",
     "activity": "Tennis",
+    "owner": "jonnyboy",
+    "location": "Provo High",
     "participants": [
       "rachet",
       "javel776"
@@ -25,6 +29,8 @@
     "date": "Tomorrow",
     "time": "9:30am",
     "activity": "Basketball",
+    "owner": "audreyandjohn",
+    "location": "250 E 300 S Provo",
     "participants": [
       "lexik",
       "the_mathlete",
@@ -36,16 +42,20 @@
     "date": "Nov 15th",
     "time": "2:00pm",
     "activity": "Bowling",
+    "owner": "chad_the_dad",
+    "location": "Fat Cats Provo",
     "participants": [
       "wifee",
       "machomoustache"
     ]
   },
- {
+  {
     "eventId": 11,
     "date": "Nov 18th",
     "time": "6:50pm",
     "activity": "Volleyball",
+    "owner": "blueforte",
+    "location": "450 W 200 N Orem",
     "participants": [
       "the_mathlete"
     ]
@@ -55,6 +65,8 @@
     "date": "Nov 28th",
     "time": "2:00pm",
     "activity": "Turkey Bowl",
+    "owner": "ofa_the_samoan",
+    "location": "Lavell Edwards Stadium",
     "participants": [
       "jakefromstatefarm",
       "r_charrecher",
@@ -70,6 +82,8 @@
     "date": "Dec 1st",
     "time": "12:00pm",
     "activity": "Tennis",
+    "owner": "derrick_usa",
+    "location": "500 W 621 S Orem",
     "participants": [
       "jakefromstatefarm"
     ]
@@ -79,6 +93,8 @@
     "date": "Dec 2nd",
     "time": "7:00pm",
     "activity": "Volleyball",
+    "owner": "rachelyoung",
+    "location": "Provo Rec Center",
     "participants": [
       "overenthusiastic_rm",
       "ofa_the_samoan",
@@ -91,6 +107,8 @@
     "date": "Dec 3rd",
     "time": "5:00pm",
     "activity": "Tennis",
+    "owner": "blazin_guns",
+    "location": "Orem Rec Center",
     "participants": [
       "jakefromstatefarm",
       "ofa_the_samoan"
@@ -101,6 +119,8 @@
     "date": "Dec 3rd",
     "time": "7:00pm",
     "activity": "Volleyball",
+    "owner": "javel776",
+    "location": "235 E 300 N Orem",
     "participants": [
       "overenthusiastic_rm",
       "ofa_the_samoan",
@@ -112,6 +132,8 @@
     "date": "Dec 4th",
     "time": "8:00pm",
     "activity": "Basketball",
+    "owner": "the_mathlete",
+    "location": "The Marriot Center",
     "participants": [
       "lankyjane",
       "rachelyoung",

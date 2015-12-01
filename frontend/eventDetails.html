@@ -3,8 +3,10 @@
 	<head>
 		<title>Ath-Meet</title>
 		<link rel="stylesheet" type="text/css" href="template.css" />
+		<link rel="stylesheet" type="text/css" href="eventDetails.css" />
 		<script src="../lib/jquery-1.11.3.js"></script>
 		<script src="template.js"></script>
+		<script src="eventDetails.js"></script>
 	</head>
 	<body>
 		<table id="mainTable">
@@ -24,7 +26,7 @@
 
 							</td>
 							<td id="middleHeader">
-								Title
+								Event Details
 							</td>
 							<td id="rightHeader">
 								<a href="matchUps.html"><img id="matchUpIcon" src="../images/matchUpIcon.png" /></a>
@@ -32,7 +34,34 @@
 						</tr>
 					</table>
 					<div id="mainContent">
-
+						<div class="fillerDiv">
+						</div>
+						<table class="backgroundTable">
+							<tr>
+								<td class="leftLabel">Sport:</td>
+								<td class="rightLabel"><label id="sport"></label></td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Where:</td>
+								<td class="rightLabel"><label id="where"></label></td>
+							</tr>
+							<tr>
+								<td class="leftLabel">When:</td>
+								<td class="rightLabel"><label id="when"></label></td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Who:</td>
+								<td class="rightLabel">
+									<div id="tableWrapper">
+										<ul id="participants"></ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="leftLabel">Details:</td>
+								<td class="rightLabel"><label id="detail"></label></td>
+							</tr>
+						</table>
 					</div>
 					<table id="eventsMenu">
 						<tr>

@@ -1,0 +1,34 @@
+.fillerDiv {
+    height: 100px;
+}
+
+.backgroundTable {
+    padding: 10px 0;
+    background-color: pink;
+    width: 100%;
+}
+
+.leftLabel {
+    width: 150px;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rightLabel {
+    margin: 5px 0 0 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#tableWrapper {
+    max-height: 145px;
+    overflow-y: scroll;
+    vertical-align: top;
+}
+
+#participants {
+    margin: 0;
+}
