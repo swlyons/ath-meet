@@ -84,10 +84,7 @@ $(function() {
 	});
 
 	$("#create").click(function() {
-		if (validateSport() && validateLocation() && validateDate() &&
-			dropDown.val() != "" &&
-			(((dropDown.val() == "public" || dropDown.val() == "random") && validateParticipantNumber()) ||
-			dropDown.val() == "private" && validateParticipants())) {
+		if (validateSport(sportNamesArray) && validateLocation() && validateDate() && validateEventType()) {
 			window.location.href = "newsFeed.html";
 		}
 	});
@@ -115,20 +112,34 @@ var validateLocation = function() {
 
 var validateDate = function() {
 	var value = $("#when").val();
-	if (!value || isNan(Date.parse(value))) {
+	if (!value || isNaN(Date.parse(value))) {
 		alert("Please enter a valid date");
 		return false;
 	}
 	return true;
 };
 
-var validateParticipantNumber = function() {
-	var value = $("#participantNumber").val();
-	if (!value) {
-
+var validateEventType = function() {
+	var dropDown = $("#eventType").val();
+	if (dropDown == "") {
+		alert("Please select a valid event type");
+		return false;
+	} else if (dropDown == "public" || dropDown == "random") {
+		return validateParticipantNumber();
+	} else {
+		return validateParticipants();
 	}
 };
 
-var validateParticipants = function() {
+var validateParticipantNumber = function() {
+	var value = $("#participantNumber").val();
+	if (!value || value < 1) {
+		alert("Please enter a valid number of participants");
+		return false;
+	}
+	return true;
+};
 
+var validateParticipants = function() {
+	return true;
 };

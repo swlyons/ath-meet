@@ -38,7 +38,9 @@
 						</tr>
 					</table>
 					<div id="mainContent">
-						<table id="questions">
+						<div class="fillerDiv">
+						</div>
+						<table class="backgroundTable">
 							<tr>
 								<td class="leftLabel">Sport:</td>
 								<td>
@@ -69,7 +71,7 @@
 								</td>
 							</tr>
 							<tr class="nonInvites">
-								<td class="leftLabel"># of Participants</td>
+								<td class="leftLabel"># of Participants:</td>
 								<td>
 									<input id="participantNumber" type="number" min="1" title="How many Participants" value="1" />
 								</td>
@@ -96,11 +98,9 @@
 									<textarea id="detail" title="Any Details about the Event"></textarea>
 								</td>
 							</tr>
-						</table>
-						<table width="100%">
 							<tr>
-								<td align="center">
-									<button id="create">Create Event</button>
+								<td colspan="2" align="center">
+									<button id="create" class="defaultGreenButton">Create Event</button>
 								</td>
 							</tr>
 						</table>
