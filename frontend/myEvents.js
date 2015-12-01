@@ -32,7 +32,7 @@ var formatPeople = function(people) {
 				result += ",";
 			}
 		}
-		result += " <a href='profile.html?id=" + people[i] + "'>@" + people[i] + "</a>";
+		result += " <a href='profile.html?username=" + people[i] + "'>@" + people[i] + "</a>";
 	}
 	return result;
 };

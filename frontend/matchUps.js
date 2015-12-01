@@ -19,7 +19,7 @@ $(function() {
 				var topRow = $("<tr></tr>");
 				var topCell = $("<td colspan='2'></td>");
 				var image = $("<img />").attr("class", "profilePicture").attr("src", userImageMap[inviter]);
-				var profileLink = $("<a></a>").attr("href", "profile.html?id=" + inviter);
+				var profileLink = $("<a></a>").attr("href", "profile.html?username=" + inviter);
 				var imageLink = profileLink.clone();
 				imageLink.append(image);
 				topCell.append(imageLink);

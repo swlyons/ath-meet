@@ -12,7 +12,7 @@ $(function() {
 				var row = $("<tr></tr>");
 				var cell = $("<td></td>").attr("class", "feedCell");
 				var image = $("<img />").attr("class", "profilePicture").attr("src", userImageMap[feedItem["username"]]);
-				var link = $("<a></a>").attr("href", "profile.html?id=" + feedItem["username"]);
+				var link = $("<a></a>").attr("href", "profile.html?username=" + feedItem["username"]);
 				var imageLink = link.clone();
 				imageLink.append(image);
 				link.append("@" + feedItem["username"]);
