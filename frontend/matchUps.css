@@ -1,0 +1,39 @@
+#matchUpTable {
+    width: 100%;
+}
+
+.matchUpCell {
+    border: 1px solid black;
+    background-color: pink;
+    padding: 3px;
+}
+
+.profilePicture {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.buttonTd {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.answerButton {
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.accept {
+    background-color: #33cc33;
+}
+
+.ignore {
+    background-color: #e06666;
+}
+
+button:focus {
+    outline: none;
+}

@@ -9,6 +9,7 @@
 	height: 548px;
 	min-height: 548px;
 	max-height: 548px;
+	overflow-y: auto;
 }
 
 #headerTable {
