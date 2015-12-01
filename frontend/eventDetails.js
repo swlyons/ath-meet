@@ -15,10 +15,10 @@ $(function() {
 		$("#sport").append(event['activity']);
 		$("#where").append(event['location']);
 		$("#when").append(event['date'] + " at " + event['time']);
-		var list = $("#participants");
-
+		$("#owner").append($("<a></a>").append("@" + event['owner']));
 		$.each(event['participants'], function(key, person) {
-			list.append($("<li></li>").append(person));
+			$("#participants").append($("<li></li>").append($("<a></a>").append("@" + person)));
 		});
+		$("#details").append(event['details']);
 	});
 });
