@@ -9,12 +9,27 @@ $(function() {
 		})
 	});
 
-	var textBox = $("#sport");
-	textBox.autocomplete({
+	var users = [];
+	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/users.json", function(data) {
+		$.each(data, function(key, user) {
+			users.push(user["username"]);
+		});
+	});
+
+	var sportTextBox = $("#sport");
+	sportTextBox.autocomplete({
 		source: sportNamesArray
 	});
 
-	$("#when").datepicker({
-		showButtonPanel: true
+	var userTextBox = $("#who");
+	userTextBox.autocomplete({
+		source: users
+	});
+
+	$("#when").datetimepicker({
+		format:'m/d/y g:i A',
+		formatTime: 'g:i A',
+		step: 30,
+		ampm: true
 	});
 });
