@@ -84,6 +84,51 @@ $(function() {
 	});
 
 	$("#create").click(function() {
-		window.location.href = "newsFeed.html";
+		if (validateSport() && validateLocation() && validateDate() &&
+			dropDown.val() != "" &&
+			(((dropDown.val() == "public" || dropDown.val() == "random") && validateParticipantNumber()) ||
+			dropDown.val() == "private" && validateParticipants())) {
+			window.location.href = "newsFeed.html";
+		}
 	});
+
+
 });
+
+var validateSport = function(sportNamesArray) {
+	var value = $("#sport").val();
+	if (!value || sportNamesArray.indexOf(value) == -1) {
+		alert("Please enter a valid sport");
+		return false;
+	}
+	return true;
+};
+
+var validateLocation = function() {
+	var value = $("#where").val();
+	if (!value) {
+		alert("Please enter a valid location");
+		return false;
+	}
+	return true;
+};
+
+var validateDate = function() {
+	var value = $("#when").val();
+	if (!value || isNan(Date.parse(value))) {
+		alert("Please enter a valid date");
+		return false;
+	}
+	return true;
+};
+
+var validateParticipantNumber = function() {
+	var value = $("#participantNumber").val();
+	if (!value) {
+
+	}
+};
+
+var validateParticipants = function() {
+
+};

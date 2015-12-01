@@ -23,7 +23,6 @@ var createAccount = function() {
 
 var validateTextBox = function(textBox) {
 	var value = textBox.val();
-	console.log(value);
 	if (!value) {
 		alert("Please enter a valid username and password");
 		return false;
