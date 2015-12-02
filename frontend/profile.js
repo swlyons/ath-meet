@@ -35,7 +35,7 @@ $(function() {
 
 			$("#name").append("@" + user['username']);
 			$("#image").attr("src", user['image']);
-			$("#tableContainer").attr("background-image", user['coverImage']);
+			$("#tableContainer").css("background-image", "url(" + user['coverImage'] + ")");
 
 			$.each(user['favoriteSports'], function(key, sport) {
 				$("#sports").append($("<img />").attr("class", "sportIcon").attr("src", sportsImageMap[sport]));

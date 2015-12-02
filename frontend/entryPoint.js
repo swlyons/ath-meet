@@ -11,6 +11,7 @@ var createAccountSlide = function() {
 	$("#createAccountCredentials").slideDown();
 	$("#fullBox").animate({height: "294px"}, function() {
 		$("#createAccount").attr("class", "clickedButton").unbind().click(createAccount);
+		$("#createdUsername").focus();
 	});
 	$("#signIn").attr("class", "unclickedButton").unbind().click(signInSlide);
 };
@@ -35,6 +36,7 @@ var signInSlide = function() {
 	$("#signInCredentials").slideDown();
 	$("#fullBox").animate({height: "243px"}, function() {
 		$("#signIn").attr("class", "clickedButton").unbind().click(signIn);
+		$("#signInUsername").focus();
 	});
 	$("#createAccount").attr("class", "unclickedButton").unbind().click(createAccountSlide);
 };
