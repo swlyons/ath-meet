@@ -1,3 +1,10 @@
+#mainContent2 {
+    width: 400px;
+    height: 620px;
+    overflow-y: auto;
+    font-family: Helvetica, sans-serif;
+}
+
 h3 {
     margin-bottom: 6px;
 }
@@ -17,7 +24,7 @@ h3 {
 }
 
 #emptyTableText {
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 #checkBoxTable {
