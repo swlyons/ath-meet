@@ -4,11 +4,7 @@
 
 #mainContent {
 	width: 400px;
-	min-width: 400px;
-	max-width: 400px;
 	height: 548px;
-	min-height: 548px;
-	max-height: 548px;
 	overflow-y: auto;
 	font-family: Helvetica, sans-serif;
 }

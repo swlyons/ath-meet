@@ -1,11 +1,13 @@
-#topMargin {
-    margin-top: 50px;
-    display: inline-block;
+h3 {
+    margin-bottom: 6px;
 }
 
-#middleMargin {
-    margin-top: 25px;
-    display: inline-block;
+#infoTable {
+
+}
+
+.leftLabel {
+    text-align: right;
 }
 
 #sportsDiv {

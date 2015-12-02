@@ -49,6 +49,9 @@ $(function() {
 	});
 
 	$("#continue").click(function() {
+		if (validateTextBox($("#firstName"), "first name") &&
+			validateTextBox($("#lastName"), "last name") &&
+			validateTextBox($("#phoneNumber"), "phone number"))
 		window.location.href = "newsFeed.html";
 	});
 });
@@ -74,4 +77,12 @@ var initCheckboxTable = function() {
 		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));
 		table.append(tr)
 	}
+};
+
+var validateTextBox = function(textBox, textBoxName) {
+	if (textBox.val() == "") {
+		alert("Please fill in your " + textBoxName);
+		return false;
+	}
+	return true;
 };
