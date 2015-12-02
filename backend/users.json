@@ -2,6 +2,7 @@
   {
     "username" : "jonnyboy",
     "image" : "../images/profile/jonnyboy.png",
+    "coverImage" : "../images/CoverImages/jonnyboy.png",
     "firstName" : "John",
     "lastName" : "Roberts",
     "phoneNumber" : "855-100-5293",
@@ -13,6 +14,7 @@
   {
     "username" : "jacksond11",
     "image" : "../images/profile/jacksond11.png",
+    "coverImage" : "../images/CoverImages/jacksond11.png",
     "firstName" : "Jackson",
     "lastName" : "Deville",
     "phoneNumber" : "844-574-6223",
@@ -24,6 +26,7 @@
   {
     "username" : "wifee",
     "image" : "../images/profile/wifee.png",
+    "coverImage" : "../images/CoverImages/wifee.png",
     "firstName" : "Sabrina",
     "lastName" : "Jacobsen",
     "phoneNumber" : "833-373-0772",
@@ -35,6 +38,7 @@
   {
     "username" : "jakefromstatefarm",
     "image" : "../images/profile/jakefromstatefarm.png",
+    "coverImage" : "../images/CoverImages/jakefromstatefarm.png",
     "firstName" : "Jake",
     "lastName" : "Johnson",
     "phoneNumber" : "899-657-7990",
@@ -46,6 +50,7 @@
   {
     "username" : "r_charrecher",
     "image" : "../images/profile/r_charrecher.png",
+    "coverImage" : "../images/CoverImages/r_charrecher.png",
     "firstName" : "Rory",
     "lastName" : "Charrecher",
     "phoneNumber" : "899-005-3097",
@@ -57,6 +62,7 @@
   {
     "username" : "jsmithereens",
     "image" : "../images/profile/jsmithereens.png",
+    "coverImage" : "../images/CoverImages/jsmithereens.png",
     "firstName" : "Jared",
     "lastName" : "Smith",
     "phoneNumber" : "833-622-9465",
@@ -69,6 +75,7 @@
   {
     "username" : "chad_the_dad",
     "image" : "../images/profile/chad_the_dad.png",
+    "coverImage" : "../images/CoverImages/chad_the_dad.png",
     "firstName" : "Chad",
     "lastName" : "Lewis",
     "phoneNumber" : "822-388-0611",
@@ -80,6 +87,7 @@
   {
     "username" : "rachely",
     "image" : "../images/profile/rachely.png",
+    "coverImage" : "../images/CoverImages/rachely.png",
     "firstName" : "Rachel",
     "lastName" : "Yterbium",
     "phoneNumber" : "855-780-6807",
@@ -92,6 +100,7 @@
   {
     "username" : "audreyandjohn",
     "image" : "../images/profile/audreyandjohn.png",
+    "coverImage" : "../images/CoverImages/audreyandjohn.png",
     "firstName" : "Audrey",
     "lastName" : "Fallbom",
     "phoneNumber" : "811-131-2298",
@@ -104,6 +113,7 @@
   {
     "username" : "blueforte",
     "image" : "../images/profile/blueforte.png",
+    "coverImage" : "../images/CoverImages/blueforte.png",
     "firstName" : "Jack",
     "lastName" : "Daniels",
     "phoneNumber" : "811-108-6744",
@@ -115,6 +125,7 @@
   {
     "username" : "overenthusiastic_rm",
     "image" : "../images/profile/overenthusiastic_rm.png",
+    "coverImage" : "../images/CoverImages/overenthusiastic_rm.png",
     "firstName" : "Kirby",
     "lastName" : "Heyborne",
     "phoneNumber" : "899-331-0522",
@@ -128,6 +139,7 @@
   {
     "username" : "ofa_the_samoan",
     "image" : "../images/profile/ofa_the_samoan.png",
+    "coverImage" : "../images/CoverImages/ofa_the_samoan.png",
     "firstName" : "Olaf",
     "lastName" : "Snow",
     "phoneNumber" : "855-139-9468",
@@ -139,6 +151,7 @@
   {
     "username" : "urgency",
     "image" : "../images/profile/urgency.png",
+    "coverImage" : "../images/CoverImages/urgency.png",
     "firstName" : "Jeremy",
     "lastName" : "Saugg",
     "phoneNumber" : "833-098-2961",
@@ -151,6 +164,7 @@
   {
     "username" : "derrick_usa",
     "image" : "../images/profile/derrick_usa.png",
+    "coverImage" : "../images/CoverImages/derrick_usa.png",
     "firstName" : "Derrick",
     "lastName" : "Jeter",
     "phoneNumber" : "899-707-4425",
@@ -162,6 +176,7 @@
   {
     "username" : "lankyjane",
     "image" : "../images/profile/lankyjane.png",
+    "coverImage" : "../images/CoverImages/lankyjane.png",
     "firstName" : "Jane",
     "lastName" : "Payne",
     "phoneNumber" : "822-567-1903",
@@ -172,6 +187,7 @@
   {
     "username" : "rachelyoung",
     "image" : "../images/profile/rachelyoung.png",
+    "coverImage" : "../images/CoverImages/rachelyoung.png",
     "firstName" : "Rachel",
     "lastName" : "Young",
     "phoneNumber" : "899-430-8094",
@@ -185,6 +201,7 @@
   {
     "username" : "pele4eva",
     "image" : "../images/profile/pele4eva.png",
+    "coverImage" : "../images/CoverImages/pele4eva.png",
     "firstName" : "Raul",
     "lastName" : "Fonbuena",
     "phoneNumber" : "899-932-8039",
@@ -196,6 +213,7 @@
   {
     "username" : "blazin_guns",
     "image" : "../images/profile/blazin_guns.png",
+    "coverImage" : "../images/CoverImages/blazin_guns.png",
     "firstName" : "Sam",
     "lastName" : "Trapp",
     "phoneNumber" : "822-362-8985",
@@ -211,6 +229,7 @@
   {
     "username" : "rachet",
     "image" : "../images/profile/rachet.png",
+    "coverImage" : "../images/CoverImages/rachet.png",
     "firstName" : "Wyatt",
     "lastName" : "Rachet",
     "phoneNumber" : "844-436-4495",
@@ -224,6 +243,7 @@
   {
     "username" : "javel776",
     "image" : "../images/profile/javel776.png",
+    "coverImage" : "../images/CoverImages/javel776.png",
     "firstName" : "Javel",
     "lastName" : "Lin",
     "phoneNumber" : "822-266-2512",
@@ -238,6 +258,7 @@
   {
     "username" : "lexik",
     "image" : "../images/profile/lexik.png",
+    "coverImage" : "../images/CoverImages/lexik.png",
     "firstName" : "Lexi",
     "lastName" : "Krauker",
     "phoneNumber" : "844-553-5923",
@@ -251,6 +272,7 @@
   {
     "username" : "the_mathlete",
     "image" : "../images/profile/the_mathlete.png",
+    "coverImage" : "../images/CoverImages/the_mathlete.png",
     "firstName" : "JJ",
     "lastName" : "Biggs",
     "phoneNumber" : "855-961-8473",
@@ -261,6 +283,7 @@
   {
     "username" : "lelival",
     "image" : "../images/profile/lelival.png",
+    "coverImage" : "../images/CoverImages/lelival.png",
     "firstName" : "Levi",
     "lastName" : "Leval",
     "phoneNumber" : "811-093-4892",
@@ -272,6 +295,7 @@
   {
     "username" : "machomoustache",
     "image" : "../images/profile/machomoustache.png",
+    "coverImage" : "../images/CoverImages/machomustache.png",
     "firstName" : "Macho",
     "lastName" : "Moustache",
     "phoneNumber" : "899-694-1176",
@@ -283,6 +307,7 @@
   {
     "username" : "espn_official",
     "image" : "../images/profile/espn_official.png",
+    "coverImage" : "../images/CoverImages/espn_official.png",
     "firstName" : "ESPN",
     "lastName" : "Official",
     "phoneNumber" : "833-201-2245",
@@ -298,6 +323,7 @@
   {
     "username" : "brady_r_us",
     "image" : "../images/profile/brady_r_us.png",
+    "coverImage" : "../images/CoverImages/brady_r_us.png",
     "firstName" : "Tom",
     "lastName" : "Brady",
     "phoneNumber" : "899-169-5324",
@@ -311,6 +337,7 @@
   {
     "username" : "jackkempenaar",
     "image" : "../images/profile/jackkempenaar.png",
+    "coverImage" : "../images/CoverImages/jackkempenaar.png",
     "firstName" : "Jack",
     "lastName" : "Kempenaar",
     "phoneNumber" : "844-188-0812",
@@ -324,6 +351,7 @@
   {
     "username" : "rcarrecher",
     "image" : "../images/profile/rcarrecher.png",
+    "coverImage" : "../images/CoverImages/rcarrecher.png",
     "firstName" : "Ronald",
     "lastName" : "Carrecher",
     "phoneNumber" : "844-166-3329",
@@ -335,27 +363,6 @@
     ]
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
