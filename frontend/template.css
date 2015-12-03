@@ -17,6 +17,8 @@
 
 #leftHeader {
 	width: 20%;
+	cursor: pointer;
+	background-image: url("http://cs256-websolutions.com/ath-meet/images/backButton.png");
 }
 
 #matchUpIcon {
