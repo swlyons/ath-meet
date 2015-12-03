@@ -24,15 +24,13 @@ body {
 	border-collapse: collapse;
 	height: 75px;
 	color: #fff;
-	background-image: url("../images/topBar.png");
+	background-color: #de0000;
 }
 
 #leftHeader {
 	width: 20%;
 	cursor: pointer;
-	background-image: url("../images/backButton.png");
-	background-position: center center;
-	background-repeat: no-repeat;
+	background: url("../images/backButton.png") no-repeat center center;
 }
 
 #matchUpIcon {
@@ -41,8 +39,10 @@ body {
 }
 
 #middleHeader {
-	font-size: 40px;
+	font-size: 28px;
 	text-align: center;
+	color: white;
+	font-family: 'Graduate', cursive;
 }
 
 #rightHeader {
@@ -54,13 +54,13 @@ body {
 #footerTable {
 	width: 100%;
 	border-collapse: collapse;
-	background-color: #b3d9ff;
+	/*background-color: #b3d9ff;*/
 	height: 75px;
 	margin-bottom: 5px;
 }
 
 #footerTable td {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	text-align: center;
 }
 
