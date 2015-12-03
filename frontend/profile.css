@@ -17,14 +17,17 @@
 
 #name {
     padding: 5px;
-    background-color: rgba(224, 102, 102, 0.4);
     color: #fff;
+	border-radius:3px;
+	text-shadow:0px 1px 3px #000;
+    background-color: rgba(2, 0, 0, 0.1);
 }
 
 #image {
     padding-top: 5px;
     height: 120px;
     width: 120px;
+	box-shadow:1px 3px 4px -2px #100506;
 }
 
 #rightTable {
@@ -36,10 +39,10 @@
 
 .redButton {
     background-color: #e06666;
-    border: 1px solid black;
+	border:none;
     padding: 7px;
     margin: 2px;
-    border-radius: 5px;
+	box-shadow:inset 1px 2px 4px -2px #FCE3E3, 1px 2px 4px -2px #100506;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -80,7 +83,7 @@ button:focus {
     cursor: pointer;
     background-color: #e06666;
     color: #fff;
-    border: 1px solid black;
+	box-shadow:inset 1px 2px 4px -2px #FCE3E3, 1px 2px 4px -2px #100506;
     border-bottom-color: #e06666;
 }
 
@@ -88,11 +91,13 @@ button:focus {
     cursor: pointer;
     background-color: pink;
     color: #000;
-    border: 1px solid black;
-}
+	position:relative;
+	z-index:-1;}
 
 .divContent {
-    border: 1px solid black;
+	box-shadow:1px 2px 4px -2px #100506;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
     border-top: none;
     height: 312px;
     background-color: #e06666;

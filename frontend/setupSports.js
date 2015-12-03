@@ -1,9 +1,4 @@
-/**
- * Created by eric on 11/20/15.
- */
 $(function() {
-	initCheckboxTable();
-
 	var sportNamesArray = [];
 	var sportImageArray = [];
 	$.getJSON("http://cs256-websolutions.com/ath-meet/backend/sports.json", function(sports) {
@@ -49,40 +44,6 @@ $(function() {
 	});
 
 	$("#continue").click(function() {
-		if (validateTextBox($("#firstName"), "first name") &&
-			validateTextBox($("#lastName"), "last name") &&
-			validateTextBox($("#phoneNumber"), "phone number"))
 		window.location.href = "newsFeed.html";
 	});
 });
-
-var initCheckboxTable = function() {
-	var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-
-	var table = $("#checkBoxTable");
-	var head = $("<thead></thead>");
-	var header = $("<tr></tr>");
-	header.append($("<th></th>").append("Day"));
-	header.append($("<th></th>").append("Morning (before noon)"));
-	header.append($("<th></th>").append("Afternoon (noon to 5)"));
-	header.append($("<th></th>").append("Evening (after 5)"));
-	head.append(header);
-	table.append(head);
-
-	for (var i = 0; i < days.length; i++) {
-		var tr = $("<tr></tr>");
-		tr.append($("<td></td>").append(days[i]));
-		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));
-		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));
-		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));
-		table.append(tr)
-	}
-};
-
-var validateTextBox = function(textBox, textBoxName) {
-	if (textBox.val() == "") {
-		alert("Please fill in your " + textBoxName);
-		return false;
-	}
-	return true;
-};

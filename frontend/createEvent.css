@@ -6,6 +6,7 @@
     padding: 10px 0;
     background-color: pink;
     width: 100%;
+	box-shadow:inset 1px 3px 4px -2px #FCE3E3, 1px 3px 4px -2px #100506;
 }
 
 .leftLabel {

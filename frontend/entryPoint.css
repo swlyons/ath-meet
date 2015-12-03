@@ -1,13 +1,11 @@
 #mainContent2 {
     width: 400px;
     height: 620px;
-    overflow-y: auto;
-    font-family: Helvetica, sans-serif;
+    overflow-y: hidden;
 }
 
 #fullBox {
-    border: 2px solid gray;
-    background-color: pink;
+	background-color:#DE0000;
     height: 166px;
     width: 330px;
     position: relative;
@@ -46,14 +44,17 @@
 }
 
 button {
-    margin: 8px 8px 0 8px;
-    width: 316px;
     height: 70px;
     font-size: 25px;
+	width: 330px;
 }
 
 button:focus {
     outline: 0;
+}
+
+#signIn {
+	margin:6px 0px 0px 0px;
 }
 
 input {

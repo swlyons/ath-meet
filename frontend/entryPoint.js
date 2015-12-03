@@ -8,8 +8,9 @@ window.onload = function() {
 
 var createAccountSlide = function() {
 	$("#signInCredentials").slideUp();
+	$("#fullBox").css("background-color","pink");
 	$("#createAccountCredentials").slideDown();
-	$("#fullBox").animate({height: "294px"}, function() {
+	$("#fullBox").animate({height: "270px"}, function() {
 		$("#createAccount").attr("class", "clickedButton").unbind().click(createAccount);
 		$("#createdUsername").focus();
 	});
@@ -18,7 +19,7 @@ var createAccountSlide = function() {
 
 var createAccount = function() {
 	if (validateTextBox($("#createdUsername")) && validateTextBox($("#createdPassword"))) {
-		window.location.href = "setupPreferences.html"
+		window.location.href = "setupInfo.html"
 	}
 };
 
@@ -33,8 +34,9 @@ var validateTextBox = function(textBox) {
 
 var signInSlide = function() {
 	$("#createAccountCredentials").slideUp();
+	$("#fullBox").css("background-color","pink");
 	$("#signInCredentials").slideDown();
-	$("#fullBox").animate({height: "243px"}, function() {
+	$("#fullBox").animate({height: "224px"}, function() {
 		$("#signIn").attr("class", "clickedButton").unbind().click(signIn);
 		$("#signInUsername").focus();
 	});

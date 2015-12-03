@@ -1,0 +1,9 @@
+.fillerDiv {
+    height: 120px;
+    width: 100%;
+}
+
+#checkBoxTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

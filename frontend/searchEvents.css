@@ -4,6 +4,7 @@
 
 #eventsTable td {
     padding: 5px;
+    cursor: pointer;
 }
 
 .search {
