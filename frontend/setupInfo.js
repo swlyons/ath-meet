@@ -3,9 +3,9 @@
  */
 $(function() {
 	$("#continue").click(function() {
-		if (validateTextBox($("#firstName"), "first name") &&
-			validateTextBox($("#lastName"), "last name") &&
-			validateTextBox($("#phoneNumber"), "phone number"))
+		//if (validateTextBox($("#firstName"), "first name") &&
+		//	validateTextBox($("#lastName"), "last name") &&
+		//	validateTextBox($("#phoneNumber"), "phone number"))
 			window.location.href = "setupAvailability.html";
 	});
 });
