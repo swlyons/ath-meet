@@ -23,13 +23,14 @@ body {
 	width: 100%;
 	border-collapse: collapse;
 	height: 75px;
-	background-color:#b3d9ff;
+	color: #fff;
+	background-image: url("../images/topBar.png");
 }
 
 #leftHeader {
 	width: 20%;
 	cursor: pointer;
-	background-image: url("http://cs256-websolutions.com/ath-meet/images/backButton.png");
+	background-image: url("../images/backButton.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
