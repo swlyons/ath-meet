@@ -48,7 +48,7 @@ var addToTable = function(event) {
 	tr.append($("<td></td>").append(event["time"]));
 	tr.append($("<td></td>").append(event["activity"]));
 	tr.click(function() {
-		console.log(tr.attr("id"));
+		window.location.href = "eventDetails.html?id=" + event["eventId"];
 	});
 	$("#eventsTable").append(tr);
 };
