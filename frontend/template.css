@@ -10,7 +10,13 @@ body {
 	width: 400px;
 	height: 548px;
 	overflow-y: auto;
-	font-family: Helvetica, sans-serif;
+}
+
+#mainContent2 {
+	width: 400px;
+	height: 620px;
+	overflow-y: hidden;
+	position: relative;
 }
 
 #headerTable {
@@ -133,4 +139,10 @@ body {
 	border: 1px solid black;
 	font-size: 20px;
 	padding: 10px;
+}
+
+.bottomButton {
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
 }

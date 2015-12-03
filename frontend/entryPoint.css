@@ -1,8 +1,7 @@
 #mainContent2 {
     width: 400px;
     height: 620px;
-    overflow-y: auto;
-    font-family: Helvetica, sans-serif;
+    overflow-y: hidden;
 }
 
 #fullBox {

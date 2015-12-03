@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="template.css" />
-		<link rel="stylesheet" type="text/css" href="setupPreferences.css" />
+		<link rel="stylesheet" type="text/css" href="setupSports.css" />
 		<link rel="stylesheet" type="text/css" href="../lib/jquery-ui-1.11.4.custom/jquery-ui.css" />
 		<script src="../lib/jquery-1.11.3.js"></script>
 		<script src="../lib/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
-		<script src="setupPreferences.js"></script>
+		<script src="setupSports.js"></script>
 	</head>
 	<body>
 		<table id="mainTable">
@@ -30,31 +30,15 @@
 						</tr>
 					</table>
 					<div id="mainContent2" align="center">
-						<h3>Who are you?</h3>
-						<table id="infoTable">
-							<tr>
-								<td class="leftLabel">First Name:</td>
-								<td><input id="firstName" type="text" /></td>
-							</tr>
-							<tr>
-								<td class="leftLabel">Last Name:</td>
-								<td><input id="lastName" type="text" /></td>
-							</tr>
-							<tr>
-								<td class="leftLabel">Phone Number:</td>
-								<td><input id="phoneNumber" type="text" /></td>
-							</tr>
-						</table>
-						<h3>When are you available?</h3>
-						<table id="checkBoxTable" class="altRows"></table>
-						<h3>What sports are you most interested in?</h3>
+						<div class="fillerDiv"></div>
+						<h2>What sports are you most interested in?</h2>
 						<input id="tags" type="text" class="search" placeholder="Search..." />
 						<button id="addSport" disabled>Add</button>
 						<div id="sportsDiv">
 							<table id="selectedSports"></table>
 							<div id="emptyTableText">No sports selected.</div>
 						</div>
-						<table width="100%">
+						<table class="bottomButton">
 							<tr>
 								<td align="center">
 									<button id="continue" class="defaultGreenButton">Finish and Log in</button>

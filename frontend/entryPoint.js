@@ -18,7 +18,7 @@ var createAccountSlide = function() {
 
 var createAccount = function() {
 	if (validateTextBox($("#createdUsername")) && validateTextBox($("#createdPassword"))) {
-		window.location.href = "setupPreferences.html"
+		window.location.href = "setupInfo.html"
 	}
 };
 
