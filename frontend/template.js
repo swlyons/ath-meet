@@ -6,6 +6,10 @@ $(function() {
 });
 
 initializeClickFunctions = function() {
+	$("#leftHeader").click(function() {
+		window.history.back();
+	});
+
 	$("#leftFooter").click(function() {
 		$("#eventsMenu").toggle();
 	});
