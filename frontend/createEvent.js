@@ -85,6 +85,7 @@ $(function() {
 
 	$("#create").click(function() {
 		if (validateSport(sportNamesArray) && validateLocation() && validateDate() && validateEventType()) {
+			alert("Your event has been created!");
 			window.location.href = "newsFeed.html";
 		}
 	});
