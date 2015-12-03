@@ -24,6 +24,8 @@ body {
 	width: 20%;
 	cursor: pointer;
 	background-image: url("http://cs256-websolutions.com/ath-meet/images/backButton.png");
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 #matchUpIcon {
