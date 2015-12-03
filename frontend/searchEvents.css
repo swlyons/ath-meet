@@ -1,5 +1,6 @@
 #eventsTable {
     border-collapse: collapse;
+    width: 90%;
 }
 
 #eventsTable td {
