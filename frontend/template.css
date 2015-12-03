@@ -14,6 +14,13 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+#mainContent2 {
+	width: 400px;
+	height: 620px;
+	overflow-y: auto;
+	position: relative;
+}
+
 #headerTable {
 	width: 100%;
 	border-collapse: collapse;
@@ -114,13 +121,13 @@ body {
 }
 
 .altRows {
-	border-radius:0px 0px 2px 2px;
+	border-radius:0 0 2px 2px;
 }
 
 .altRows thead {
 	background-color: #fb5151;
 	color: #fff;
-	border-radius:2px 2px 0px 0px;
+	border-radius:2px 2px 0 0;
 }
 
 .altRows tbody tr:nth-child(odd) {
@@ -130,9 +137,11 @@ body {
 .altRows tbody tr:nth-child(even) {
 	background-color: #ffcccc;
 }
+
 button {
 	border:none;
 }
+
 .defaultGreenButton {
 	background-color: #33cc33;
 	cursor: pointer;
@@ -140,4 +149,11 @@ button {
 	padding: 10px;
 	box-shadow:inset 1px 2px 3px -2px #FCE3E3, 1px 2px 3px -2px #100506;
 	border:none;
+	width: 200px;
+}
+
+.bottomButton {
+	width: 100%;
+	position: absolute;
+	bottom: 50px;
 }
