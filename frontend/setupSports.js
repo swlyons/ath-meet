@@ -44,6 +44,6 @@ $(function() {
 	});
 
 	$("#continue").click(function() {
-		window.location.href = "newsFeed.html";
+		window.location.href = "newsFeed.html?back=false";
 	});
 });
