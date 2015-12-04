@@ -3,6 +3,13 @@
  */
 $(function() {
 	initializeClickFunctions();
+
+	if (getParameterByName("back") == "false") {
+		var leftHeader = $("#leftHeader");
+		leftHeader.css("background", "none");
+		leftHeader.css("cursor", "default");
+		leftHeader.unbind("click");
+	}
 });
 
 initializeClickFunctions = function() {
