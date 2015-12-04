@@ -3,7 +3,7 @@
 }
 
 .eventCell {
-	box-shadow:inset 1px 3px 6px -2px #FCE3E3, 1px 3px 6px -2px #100506;
+	box-shadow:inset 1px 4px 3px -2px #FCE3E3, 1px 4px 6px -3px #100506;
 	position:relative;
 	z-index:-1;    background-color: pink;
     padding: 3px;
