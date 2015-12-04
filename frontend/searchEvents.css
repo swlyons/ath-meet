@@ -1,3 +1,8 @@
+#tableContainer {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
 #eventsTable {
     border-collapse: collapse;
     width: 90%;
