@@ -26,14 +26,14 @@ $(function() {
 			}
 
 			if (isYou) {
-				$("#editProfile").show();
+				//$("#editProfile").show();
 				$("#followers").show();
 			} else {
 				$("#sendMessage").show();
 				$("#follow").show();
 			}
 
-			$("#name").append("@" + user['username']);
+			$("#name").append(user['firstName']);
 			$("#image").attr("src", user['image']);
 			$("#topContent").css("background-image", "url(" + user['coverImage'] + ")");
 
