@@ -10,16 +10,20 @@ initializeClickFunctions = function() {
 		window.history.back();
 	});
 
-	$("#leftFooter").click(function() {
+	$("#eventFooter").click(function() {
 		$("#eventsMenu").toggle();
 	});
 
-	$("#middleFooter").click(function() {
+	$("#newsFeedFooter").click(function() {
 		window.location.href = "newsFeed.html";
 	});
 
-	$("#rightFooter").click(function() {
+	$("#profileFooter").click(function() {
 		window.location.href = "profile.html";
+	});
+
+	$("#matchUpsFooter").click(function() {
+		window.location.href = "matchUps.html";
 	});
 
 	$("#myEvents").click(function() {
