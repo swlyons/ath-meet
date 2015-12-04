@@ -76,10 +76,12 @@ button:focus {
 
 #stats {
     width: 50%;
+    border-radius: 5px 3px 0 0;
 }
 
 #avail {
     width: 50%;
+    border-radius: 3px 5px 0 0;
 }
 
 .clicked {
@@ -94,8 +96,7 @@ button:focus {
     cursor: pointer;
     background-color: pink;
     color: #000;
-	position:relative;
-	z-index:-1;}
+}
 
 .divContent {
 	box-shadow:1px 2px 4px -2px #100506;
