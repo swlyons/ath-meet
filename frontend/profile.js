@@ -37,9 +37,9 @@ $(function() {
 			$("#image").attr("src", user['image']);
 			$("#topContent").css("background-image", "url(" + user['coverImage'] + ")");
 
-			$.each(user['favoriteSports'], function(key, sport) {
-				$("#sports").append($("<img />").attr("class", "sportIcon").attr("src", sportsImageMap[sport]));
-			});
+			//$.each(user['favoriteSports'], function(key, sport) {
+			//	$("#sports").append($("<img />").attr("class", "sportIcon").attr("src", sportsImageMap[sport]));
+			//});
 		});
 	});
 
