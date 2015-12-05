@@ -3,6 +3,11 @@ body {
 	color:#231E20;
 }
 
+a {
+	text-decoration: none;
+	color: blue;
+}
+
 #mainTable {
 	border-collapse: collapse;
 }
