@@ -26,20 +26,20 @@ $(function() {
 			}
 
 			if (isYou) {
-				$("#editProfile").show();
+				//$("#editProfile").show();
 				$("#followers").show();
 			} else {
 				$("#sendMessage").show();
 				$("#follow").show();
 			}
 
-			$("#name").append("@" + user['username']);
+			$("#name").append(user['firstName']);
 			$("#image").attr("src", user['image']);
 			$("#topContent").css("background-image", "url(" + user['coverImage'] + ")");
 
-			$.each(user['favoriteSports'], function(key, sport) {
-				$("#sports").append($("<img />").attr("class", "sportIcon").attr("src", sportsImageMap[sport]));
-			});
+			//$.each(user['favoriteSports'], function(key, sport) {
+			//	$("#sports").append($("<img />").attr("class", "sportIcon").attr("src", sportsImageMap[sport]));
+			//});
 		});
 	});
 
