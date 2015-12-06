@@ -7,6 +7,8 @@
     background-color: pink;
     width: 100%;
 	box-shadow:inset 1px 4px 6px -2px #FCE3E3, 1px 4px 6px -2px #100506;
+	position:relative;
+	z-index: 1;
 }
 
 .leftLabel {
