@@ -1,9 +1,13 @@
 .fillerDiv {
-    height: 120px;
+    height: 60px;
     width: 100%;
 }
 
 #checkBoxTable {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+input[type=checkbox] {
+    zoom: 2;
 }
