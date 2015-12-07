@@ -72,18 +72,19 @@ var transformSportsData = function(data) {
 
 
 function followOrUnfollow(){
-    if($("#follow").html()=="Follow"){
-        alert("You are no longer following.");
-        $("#follow").html("Unfollow");
-    }else{
-        alert("You are now following!");
-        $("#follow").html("Follow");
+	var follow = $("#follow");
+    if(follow.html() == "Follow") {
+		alert("You are now following!");
+		follow.html("Unfollow");
+    } else {
+		alert("You are no longer following.");
+		follow.html("Follow");
     }
     
 }
 
 function followers() {
-    alert("jacksond11<br/>wifee<br/><br/>chad_the_dad")   
+    alert("jacksond11\nwifee\nchad_the_dad")
 }
 
 function sendMessage(){
