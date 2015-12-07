@@ -10,7 +10,7 @@ $(function() {
 			var table = $("<table></table>").attr("id", "matchUpTable").attr("cellspacing", "10");
 
 			$.each(eventsData, function(key, event) {
-				var row = $("<tr></tr>");
+				var row = $("<tr id=\'event"+event["eventId"]+"\'></tr>");
 				var cell = $("<td class='matchUpCell'></td>");
 
 				var innerTable = $("<table></table>");
@@ -32,11 +32,11 @@ $(function() {
 				topRow.append(topCell);
 				innerTable.append(topRow);
 
-				var bottomRow = $("<tr id=\'event"+event["eventId"]+"\'></tr>");
+				var bottomRow = $("<tr></tr>");
 				var bottomLeftCell = $("<td class='buttonTd'></td>");
 				var bottomRightCell = $("<td class='buttonTd'></td>");
-				var accept = $("<button class='answerButton accept' onclick=\'removeRow(event"+event["eventId"]+", 'accept')\'>Accept</button>").attr("id", "accept" + event["eventId"]);
-				var ignore = $("<button class='answerButton ignore' onclick=\'removeRow(event"+event["eventId"]+", 'ignore')\'>Ignore</button>").attr("id", "ignore" + event["eventId"]);
+				var accept = $("<button class='answerButton accept' onclick=\'removeRow(\"event"+event["eventId"]+"\", \"accept\")\'>Accept</button>").attr("id", "accept" + event["eventId"]);
+				var ignore = $("<button class='answerButton ignore' onclick=\'removeRow(\"event"+event["eventId"]+"\", \"ignore\")\'>Ignore</button>").attr("id", "ignore" + event["eventId"]);
 				bottomLeftCell.append(accept);
 				bottomRightCell.append(ignore);
 				bottomRow.append(bottomLeftCell);
@@ -63,8 +63,10 @@ var transformUserData = function(data) {
 };
 
 function removeRow(id, message){
-    $("#Content").append("<div id='confirmationDialogBox'><p>Are you sure you want to "+message+"?</p></div>")
+    var confirmationDialogBox = "<div id='confirmationDialogBox'><p>Are you sure you want to "+message+"?</p></div>";
+    $("html").append(confirmationDialogBox);
     $("#confirmationDialogBox").dialog({
+        width: 500,
         buttons:{
             "Yes": function () {
                 $("#"+id).remove();
