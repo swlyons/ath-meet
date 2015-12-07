@@ -32,11 +32,11 @@ $(function() {
 				topRow.append(topCell);
 				innerTable.append(topRow);
 
-				var bottomRow = $("<tr></tr>");
+				var bottomRow = $("<tr id=\'event"+event["eventId"]+"\'></tr>");
 				var bottomLeftCell = $("<td class='buttonTd'></td>");
 				var bottomRightCell = $("<td class='buttonTd'></td>");
 				var accept = $("<button class='answerButton accept'>Accept</button>").attr("id", "accept" + event["eventId"]);
-				var ignore = $("<button class='answerButton ignore'>Ignore</button>").attr("id", "ignore" + event["eventId"]);
+				var ignore = $("<button class='answerButton ignore' onclick=\'removeRow(event"+event["eventId"]+")\'>Ignore</button>").attr("id", "ignore" + event["eventId"]);
 				bottomLeftCell.append(accept);
 				bottomRightCell.append(ignore);
 				bottomRow.append(bottomLeftCell);
@@ -61,3 +61,8 @@ var transformUserData = function(data) {
 	});
 	return userImageMap;
 };
+
+function removeRow(id){
+    $("#"+id).remove();
+}
+

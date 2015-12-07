@@ -69,3 +69,29 @@ var transformSportsData = function(data) {
 	});
 	return sportsImageMap;
 };
+
+
+function followOrUnfollow(){
+    if($("#follow").html()=="Follow"){
+        alert("You are no longer following.");
+        $("#follow").html("Unfollow");
+    }else{
+        alert("You are now following!");
+        $("#follow").html("Follow");
+    }
+    
+}
+
+function followers() {
+    alert("jacksond11<br/>wifee<br/><br/>chad_the_dad")   
+}
+
+function sendMessage(){
+    alert("555-555-5555");
+}
+
+
+
+
+
+
