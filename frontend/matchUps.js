@@ -35,8 +35,8 @@ $(function() {
 				var bottomRow = $("<tr id=\'event"+event["eventId"]+"\'></tr>");
 				var bottomLeftCell = $("<td class='buttonTd'></td>");
 				var bottomRightCell = $("<td class='buttonTd'></td>");
-				var accept = $("<button class='answerButton accept'>Accept</button>").attr("id", "accept" + event["eventId"]);
-				var ignore = $("<button class='answerButton ignore' onclick=\'removeRow(event"+event["eventId"]+")\'>Ignore</button>").attr("id", "ignore" + event["eventId"]);
+				var accept = $("<button class='answerButton accept' onclick=\'removeRow(event"+event["eventId"]+", 'accept')\'>Accept</button>").attr("id", "accept" + event["eventId"]);
+				var ignore = $("<button class='answerButton ignore' onclick=\'removeRow(event"+event["eventId"]+", 'ignore')\'>Ignore</button>").attr("id", "ignore" + event["eventId"]);
 				bottomLeftCell.append(accept);
 				bottomRightCell.append(ignore);
 				bottomRow.append(bottomLeftCell);
@@ -62,7 +62,23 @@ var transformUserData = function(data) {
 	return userImageMap;
 };
 
-function removeRow(id){
-    $("#"+id).remove();
+function removeRow(id, message){
+    $("#Content").append("<div id='confirmationDialogBox'><p>Are you sure you want to "+message+"?</p></div>")
+    $("#confirmationDialogBox").dialog({
+        buttons:{
+            "Yes": function () {
+                $("#"+id).remove();
+                $(this).dialog("close");
+            },
+            "No": function (){
+                $(this).dialog("close");
+            }
+        },
+        close: function() {$("#confirmationDialogBox").remove();},
+        closeOnExcape: true,
+        modal: true,
+        title: "Confirmation"        
+    });
+
 }
 
