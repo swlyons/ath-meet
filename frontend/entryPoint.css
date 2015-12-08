@@ -7,11 +7,12 @@
 #logo {
     position: relative;
     top: 100px;
+    width: 330px;
 }
 
 #fullBox {
 	background-color:#DE0000;
-    height: 266px;
+    height: 145px;
     width: 330px;
     position: relative;
     top: -50px;
