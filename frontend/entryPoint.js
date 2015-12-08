@@ -3,8 +3,8 @@
  */
 $(function() {
 	setTimeout(function() {
-		$("#logo").animate({top: 0}, 2000);
-		$("#fullBox").fadeIn(2000, function() {
+		$("#logo").animate({top: 0}, 1000);
+		$("#fullBox").fadeIn(1000, function() {
 			$("#createAccount").click(createAccountSlide);
 			$("#signIn").click(signInSlide);
 		});
