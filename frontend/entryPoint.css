@@ -4,12 +4,18 @@
     overflow-y: hidden;
 }
 
+#logo {
+    position: relative;
+    top: 100px;
+}
+
 #fullBox {
 	background-color:#DE0000;
     height: 266px;
     width: 330px;
     position: relative;
     top: -50px;
+    display: none;
 }
 
 .credentials {

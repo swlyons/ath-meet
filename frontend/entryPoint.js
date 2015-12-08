@@ -1,10 +1,15 @@
 /**
  * Created by eric on 11/17/15.
  */
-window.onload = function() {
-	$("#createAccount").click(createAccountSlide);
-	$("#signIn").click(signInSlide);
-};
+$(function() {
+	setTimeout(function() {
+		$("#logo").animate({top: 0}, 2000);
+		$("#fullBox").fadeIn(2000, function() {
+			$("#createAccount").click(createAccountSlide);
+			$("#signIn").click(signInSlide);
+		});
+	}, 1000);
+});
 
 var createAccountSlide = function() {
 	$("#signInCredentials").slideUp();
