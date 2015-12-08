@@ -63,6 +63,10 @@ $(function() {
 			$("#div3").fadeIn();
 		})
 	});
+
+	$("#continue3").click(function() {
+		window.location.href = "newsFeed.html?back=false";
+	});
 });
 
 var initCheckboxTable = function() {
