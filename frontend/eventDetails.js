@@ -16,9 +16,9 @@ $(function() {
 		$("#sport").append(event['activity']);
 		$("#where").append(event['location']);
 		$("#when").append(event['date'] + " at " + event['time']);
-		$("#owner").append($("<a></a>").append("@" + event['owner']));
+		$("#owner").append($("<a></a>").attr("href", "profile.html?username=" + event['owner']).append("@" + event['owner']));
 		$.each(event['participants'], function(key, person) {
-			$("#participants").append($("<li></li>").append($("<a></a>").append("@" + person)));
+			$("#participants").append($("<li></li>").append($("<a></a>").attr("href", "profile.html?username=" + person).append("@" + person)));
 		});
 		$("#details").append(event['details']);
 	});
