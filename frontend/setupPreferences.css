@@ -1,0 +1,99 @@
+.mainDiv {
+    width: 400px;
+    height: 620px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.onScreen {
+    display: block;
+}
+
+.offScreen {
+    display: none;
+}
+
+.fillerDiv1 {
+    height: 150px;
+    width: 100%;
+}
+
+.fillerDiv2 {
+    height: 60px;
+    width: 100%;
+}
+
+.fillerDiv3 {
+    height: 80px;
+    width: 100%;
+}
+
+#infoTable {
+    border-collapse: collapse;
+}
+
+.leftLabel {
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.input1 {
+    position: relative;
+    font-size: 15px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.input1:focus {
+    outline: 0;
+}
+
+#checkBoxTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    zoom: 2;
+}
+
+#sportsDiv {
+    border: 1px solid black;
+    max-height: 135px;
+    overflow-y: scroll;
+}
+
+.search {
+    padding: 6px 30px 5px 15px;
+    margin: 3px;
+    background: url("../images/magnifyingGlass.png") no-repeat top right;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#emptyTableText {
+    margin: 10px 0;
+}
+
+.sportImage {
+    height: 30px;
+    width: 30px;
+    padding: 0 20px;
+}
+
+.removeRow {
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+#removeImage {
+    height: 12px;
+    width: 12px;
+}

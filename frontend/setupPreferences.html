@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html>
-	<head lang="en">
-		<meta charset="UTF-8">
-		<title></title>
+	<head>
+		<title>Ath-Meet</title>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Graduate" />
+		<link rel="stylesheet" type="text/css" href="template.css" />
+		<link rel="stylesheet" type="text/css" href="setupPreferences.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/jquery-ui-1.11.4.custom/jquery-ui.css" />
+		<script src="../lib/jquery-1.11.3.js"></script>
+		<script src="../lib/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+		<script src="setupPreferences.js"></script>
+		<script src="template.js"></script>
 	</head>
 	<body>
-
+		<table id="mainTable">
+			<tr>
+				<td colspan=3 class="noWrapping">
+					<img class="fill" src="../images/phoneTop.png" />
+				</td>
+			</tr>
+			<tr>
+				<td class="noWrapping">
+					<img class="fill" src="../images/phoneLeft.png" />
+				</td>
+				<td class="noWrapping" valign="top">
+					<table id="headerTable">
+						<tr>
+							<td id="leftHeader"></td>
+							<td id="middleHeader">
+								Preferences
+							</td>
+							<td id="rightHeader"></td>
+						</tr>
+					</table>
+					<div id="div1" class="mainDiv onScreen" align="center">
+						<div class="fillerDiv1"></div>
+						<h2>Who are you?</h2>
+						<table id="infoTable">
+							<tr>
+								<td class="leftLabel"><label for="firstName">First Name:</label></td>
+								<td><input id="firstName" class="input1" type="text" /></td>
+							</tr>
+							<tr>
+								<td class="leftLabel"><label for="lastName">Last Name:</label></td>
+								<td><input id="lastName" class="input1" type="text" /></td>
+							</tr>
+							<tr>
+								<td class="leftLabel"><label for="phoneNumber">Phone Number:</label></td>
+								<td><input id="phoneNumber" class="input1" type="text" /></td>
+							</tr>
+						</table>
+						<table class="bottomButton">
+							<tr>
+								<td align="center">
+									<button id="continue1" class="defaultGreenButton">Next</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="div2" class="mainDiv offScreen" align="center">
+						<div class="fillerDiv2"></div>
+						<h2>When are you available?</h2>
+						<table id="checkBoxTable" class="altRows"></table>
+						<table class="bottomButton">
+							<tr>
+								<td align="center">
+									<button id="continue2" class="defaultGreenButton">Next</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="div3" class="mainDiv offScreen" align="center">
+						<div class="fillerDiv3"></div>
+						<h2>What sports are you most interested in?</h2>
+						<input id="tags" type="text" class="search" placeholder="Search..." />
+						<button id="addSport" disabled>Add</button>
+						<div id="sportsDiv">
+							<table id="selectedSports"></table>
+							<div id="emptyTableText">No sports selected.</div>
+						</div>
+						<table class="bottomButton">
+							<tr>
+								<td align="center">
+									<button id="continue" class="defaultGreenButton">Finish and Log in</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td class="noWrapping">
+					<img class="fill" src="../images/phoneRight.png" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan=3 class="noWrapping">
+					<img class="fill" src="../images/phoneBottom.png" />
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>

@@ -10,6 +10,7 @@ a {
 
 #mainTable {
 	border-collapse: collapse;
+	/*zoom: .5;*/
 }
 
 #mainContent {
