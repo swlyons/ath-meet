@@ -21,7 +21,7 @@ var initCheckboxTable = function() {
 
 	for (var i = 0; i < days.length; i++) {
 		var tr = $("<tr></tr>");
-		tr.append($("<td></td>").append(days[i]));
+		tr.append($("<td></td>").attr("class", "tableHeader").append(days[i]));
 		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));
 		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));
 		tr.append($("<td></td>").attr("align", "center").append($("<input />").attr("type", "checkbox")));

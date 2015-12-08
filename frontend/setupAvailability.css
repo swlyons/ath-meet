@@ -8,6 +8,10 @@
     border-collapse: collapse;
 }
 
+.tableHeader {
+    font-size: 20px;
+}
+
 input[type=checkbox] {
     zoom: 2;
 }
