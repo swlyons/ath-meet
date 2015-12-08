@@ -14,7 +14,7 @@ $(function() {
 var createAccountSlide = function() {
 	$("#signInCredentials").slideUp();
 	$("#createAccountCredentials").slideDown();
-	$("#fullBox").animate({height: "302px"}, function() {
+	$("#fullBox").animate({height: "305px"}, function() {
 		$("#createAccount").attr("class", "clickedButton").unbind().click(createAccount);
 		$("#createdUsername").focus();
 	});
@@ -39,7 +39,7 @@ var validateTextBox = function(textBox) {
 var signInSlide = function() {
 	$("#createAccountCredentials").slideUp();
 	$("#signInCredentials").slideDown();
-	$("#fullBox").animate({height: "251px"}, function() {
+	$("#fullBox").animate({height: "255px"}, function() {
 		$("#signIn").attr("class", "clickedButton").unbind().click(signIn);
 		$("#signInUsername").focus();
 	});
